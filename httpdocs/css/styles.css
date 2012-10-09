@@ -13,7 +13,7 @@ figure:before {
     left: 50%;
     width: 100%;
     height: 100%;
-    background: url(/httpdocs/images/contorn-fotos.png) no-repeat;
+    background: url(/images/contorn-fotos.png) no-repeat;
 }
 
 #top .row { margin-bottom: 40px;}
@@ -25,32 +25,32 @@ figure:before {
 .idiomes ul li a { padding: 30px 0 0 0;display: block;background-repeat: no-repeat; background-position: 50% 0px; height: 0px;}
 .idiomes ul li a:hover { background-position: 50% -27px;}
 
-.idiomes ul li#ca a { background-image: url(/httpdocs/images/banderes/ca.png) }
-.idiomes ul li#es a { background-image: url(/httpdocs/images/banderes/es.png) }
-.idiomes ul li#en a { background-image: url(/httpdocs/images/banderes/en.png) }
-.idiomes ul li#fr a { background-image: url(/httpdocs/images/banderes/fr.png) }
+.idiomes ul li#ca a { background-image: url(/images/banderes/ca.png) }
+.idiomes ul li#es a { background-image: url(/images/banderes/es.png) }
+.idiomes ul li#en a { background-image: url(/images/banderes/en.png) }
+.idiomes ul li#fr a { background-image: url(/images/banderes/fr.png) }
 
 
 /*** ESTACIONS ****/
-.estacions { background: transparent url(/httpdocs/images/estacions/pastilla-estacions.png) no-repeat 0 0;}
+.estacions { background: transparent url(/images/estacions/pastilla-estacions.png) no-repeat 0 0;}
 .estacions ul { margin:0;padding:0}
 
 .estacions p { margin: 4px 0 0 16px; color: white;font-size: 1.3em;}
 .estacions ul { margin-top: 10px}
 .estacions ul li { float: left; list-style: none;text-align: center;height: 1px;}
 .estacions ul li a { font-size:0.9em; display: block;padding: 0 0 60px 0; width:89px; background-repeat: no-repeat;background-position: 50% 0;}
-.estacions ul li#estiu a { background-image: url(/httpdocs/images/estacions/estiu.png)}
-.estacions ul li#primavera a { background-image: url(/httpdocs/images/estacions/primavera.png)}
-.estacions ul li#hivern a { background-image: url(/httpdocs/images/estacions/hivern.png)}
-.estacions ul li#tardor a { background-image: url(/httpdocs/images/estacions/tardor.png)}
+.estacions ul li#estiu a { background-image: url(/images/estacions/estiu.png)}
+.estacions ul li#primavera a { background-image: url(/images/estacions/primavera.png)}
+.estacions ul li#hivern a { background-image: url(/images/estacions/hivern.png)}
+.estacions ul li#tardor a { background-image: url(/images/estacions/tardor.png)}
 
 
-.head h1 { background: transparent url(/httpdocs/images/logo-esportitxo.png) no-repeat 0 0;padding:65px 0 0 70px;margin:0;font-size:14px}
+.head h1 { background: transparent url(/images/logo-esportitxo.png) no-repeat 0 0;padding:65px 0 0 70px;margin:0;font-size:14px}
 
 #primary-image { position: relative;}
 #primary-image .contorn { position: absolute;}
 
-#calendar { background: transparent url(/httpdocs/images/fons/fons-calendari.png) no-repeat 0 0;min-height: 274px;}
-#booking { background: transparent url(/httpdocs/images/fons/fons-reserva.png) no-repeat 0 0;min-height: 274px;}
+#calendar { background: transparent url(/images/fons/fons-calendari.png) no-repeat 0 0;min-height: 274px;}
+#booking { background: transparent url(/images/fons/fons-reserva.png) no-repeat 0 0;min-height: 274px;}
 
-#menu { background: transparent url(/httpdocs/images/fons/fons-menu.png) no-repeat 0 0;}
+#menu { background: transparent url(/images/fons/fons-menu.png) no-repeat 0 0;}
