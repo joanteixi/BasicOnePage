@@ -9,14 +9,18 @@
             $(this).find('a').click(onClick);
         });
 
-        function onClick() {
+        function onClick(event) {
+            event.preventDefault();
             newImage = $(this).find('img').attr('src');
-            imageContainer.attr('src', newImage);
-            console.log(newImage);
+            imageContainer.fadeOut(function() {
+                imageContainer.attr('src', newImage);
+            });
+            imageContainer.fadeIn();
+
             return false;
         }
     }
 
-    $.fn.thumbnailer.defaults = {id: 'thumbnails'}
+    $.fn.thumbnailer.defaults = {id: 'images'}
 
 })(jQuery);

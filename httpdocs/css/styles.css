@@ -1,6 +1,7 @@
 .container { border: 1px solid #000}
 
-ul#menu li { display: inline; margin: 0 10px;}
+ul#menu { color: rgb(57,101,209); text-transform: uppercase; font-size:1.1em;background: transparent url(/images/fons/fons-menu.png) no-repeat 0 0;padding: 1px 0; margin:10px 0}
+ul#menu li { display: inline; margin: 0 3px;}
 ul#menu li a { display: block;}
 
 .detail img { float: left; }
@@ -15,14 +16,13 @@ figure:before {
     height: 100%;
     background: url(/images/contorn-fotos.png) no-repeat;
 }
-
 #top .row { margin-bottom: 40px;}
 
 /***** IDIOMES TOP ***/
 .idiomes { margin-bottom: 45px;}
 .idiomes ul { margin:0;padding:0}
 .idiomes ul li { float: left; min-width: 50px;list-style: none;text-align: center;height: 1px;}
-.idiomes ul li a { padding: 30px 0 0 0;display: block;background-repeat: no-repeat; background-position: 50% 0px; height: 0px;}
+.idiomes ul li a { padding: 30px 0 0 0;display: block;background-repeat: no-repeat; background-position: 50% 0; height: 0;}
 .idiomes ul li a:hover { background-position: 50% -27px;}
 
 .idiomes ul li#ca a { background-image: url(/images/banderes/ca.png) }
@@ -38,7 +38,7 @@ figure:before {
 .estacions p { margin: 4px 0 0 16px; color: white;font-size: 1.3em;}
 .estacions ul { margin-top: 10px}
 .estacions ul li { float: left; list-style: none;text-align: center;height: 1px;}
-.estacions ul li a { font-size:0.9em; display: block;padding: 0 0 60px 0; width:89px; background-repeat: no-repeat;background-position: 50% 0;}
+.estacions ul li a { font-size:0.8em; display: block;padding: 0 0 40px 0; width:73px; background-repeat: no-repeat;background-position: 50% 0;}
 .estacions ul li#estiu a { background-image: url(/images/estacions/estiu.png)}
 .estacions ul li#primavera a { background-image: url(/images/estacions/primavera.png)}
 .estacions ul li#hivern a { background-image: url(/images/estacions/hivern.png)}
@@ -48,9 +48,19 @@ figure:before {
 .head h1 { background: transparent url(/images/logo-esportitxo.png) no-repeat 0 0;padding:65px 0 0 70px;margin:0;font-size:14px}
 
 #primary-image { position: relative;}
-#primary-image .contorn { position: absolute;}
+#primary-image .contorn { position: absolute;z-index:40}
 
-#calendar { background: transparent url(/images/fons/fons-calendari.png) no-repeat 0 0;min-height: 274px;}
-#booking { background: transparent url(/images/fons/fons-reserva.png) no-repeat 0 0;min-height: 274px;}
+#calendar { background: transparent url(/images/fons/fons-calendari.png) no-repeat 0 0;}
+#booking { background: transparent url(/images/fons/fons-reserva.png) no-repeat 0 0; }
 
-#menu { background: transparent url(/images/fons/fons-menu.png) no-repeat 0 0;}
+
+/***** FOTOS *****/
+#galeria { position: relative;}
+ul.imatges { list-style: none; position: absolute; bottom: 15px; left: 20px;z-index: 50}
+ul.imatges li { margin: 0; padding: 0; display: inline}
+ul.imatges li img {  }
+
+.text { background-color: rgb(216,227,246); position: relative  }
+.detail { float: left;margin: 0 0 0 -33px;padding: 9px;}
+.detail img { -moz-box-shadow: 5px 5px 10px #AAA; box-shadow: 5px 5px 10px #AAA;}
+.column { width: 280px;margin: 0 6px;float: left;padding: 10px 5px;}
