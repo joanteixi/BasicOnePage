@@ -35,7 +35,7 @@
         </div>
     </div>
     <div class='span12 head'>
-        <h1>CASA-DÚPLEX A CADAQUÉS | LLOGUER AMB ENCANT</h1
+        <h1>CASA-DÚPLEX A CADAQUÉS | LLOGUER AMB ENCANT</h1>
     </div>
     <div id='body'>
         <div class='row'>
@@ -62,21 +62,19 @@
                 <div id='calendar'>
 
                     <h2>Disponibilitat</h2>
-                    Calendari
-                </div>
+                    <iframe src="https://www.google.com/calendar/embed?showTitle=0&amp;showPrint=0&amp;showTabs=0&amp;showCalendars=0&amp;showTz=0&amp;height=280&amp;wkst=2&amp;bgcolor=%23FFFFFF&amp;src=maristesbadalona.com_dkkv66gv3k180t0uil9a05l7b0%40group.calendar.google.com&amp;color=%232F6309&amp;ctz=Europe%2FMadrid"
+                            style=" border-width:0 " width="250" height="280" frameborder="0" scrolling="no"></iframe>
+                    <div id='booking'>
+                        <h2>Reserves</h2>
 
-                <div id='booking'>
-                    <h2>Reserves</h2>
-
-                    <p class='highlight'>VOLS FER UNA RESERVA O UNA CONSULTA SOBRE ES PORTITXÓ; </p>
+                        <p class='highlight'>VOLS FER UNA RESERVA O UNA CONSULTA SOBRE ES PORTITXÓ; </p>
+                    </div>
                 </div>
             </div>
         </div>
-
         <div class='row'>
             <div class='span8'>
-
-                <ul id='menu'>
+                <ul id='menu-fotos'>
                     <li>Casa</li>
                     <li>Cuina</li>
                     <li>Menjador</li>
@@ -87,7 +85,6 @@
                     <li>Cadaqués</li>
                 </ul>
             </div>
-
         </div>
         <div class='row'>
 
@@ -98,35 +95,46 @@
                         <img width='200px' src='/images/detalle.png'/>
                     </div>
                     <p>
-                        Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum
-                        ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N.
-                        del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló
-                        de tal manera que logró hacer un libro de textos especimen. No sólo sobrevivió 500 años, sino
+                        Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem
+                        Ipsum
+                        ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor
+                        (N.
+                        del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los
+                        mezcló
+                        de tal manera que logró hacer un libro de textos especimen. No sólo sobrevivió 500 años,
+                        sino
                         que tambien ingresó como texto de relleno en documentos electrónicos, quedando esencialmente
                         igual al original. Fue popularizado en los 60s con la creación de las hojas "Letraset", las
-                        cuales contenian pasajes de Lorem Ipsum, y más recientemente con software de autoedición, como
+                        cuales contenian pasajes de Lorem Ipsum, y más recientemente con software de autoedición,
+                        como
                         por ejemplo Aldus PageMaker, el cual incluye versiones de Lorem Ipsum.</p>
                 </div>
                 <div class='column'>
                     <p>
-                        Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum
-                        ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N.
-                        del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló
-                        de tal manera que logró hacer un libro de textos especimen. No sólo sobrevivió 500 años, sino
+                        Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem
+                        Ipsum
+                        ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor
+                        (N.
+                        del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los
+                        mezcló
+                        de tal manera que logró hacer un libro de textos especimen. No sólo sobrevivió 500 años,
+                        sino
                         que tambien ingresó como texto de relleno en documentos electrónicos, quedando esencialmente
                         igual al original. Fue popularizado en los 60s con la creación de las hojas "Letraset", las
-                        cuales contenian pasajes de Lorem Ipsum, y más recientemente con software de autoedición, como
+                        cuales contenian pasajes de Lorem Ipsum, y más recientemente con software de autoedición,
+                        como
                         por ejemplo Aldus PageMaker, el cual incluye versiones de Lorem Ipsum.</p>
                 </div>
             </div>
 
-            <div class='span4 '>
+            <div class='span4' id='menu'>
+                <span class='clip'></span>
                 <ul class='nav '>
-                    <li>Com arribar-hi</li>
-                    <li>Tarifes - 2012</li>
-                    <li>Condicions de contractació</li>
-                    <li>Serveis opcionals</li>
-                    <li>Mascotes</li>
+                    <li id='comarribar'><a href="">Com arribar-hi</a></li>
+                    <li id='tarifes'><a href="">Tarifes - 2012</a></li>
+                    <li id='condicions'><a href="">Condicions de contractació</a></li>
+                    <li id='serveis'><a href="">Serveis opcionals</a></li>
+                    <li id='mascotes'><a href="">Mascotes</a></li>
                 </ul>
 
             </div>

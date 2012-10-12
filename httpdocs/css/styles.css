@@ -1,11 +1,5 @@
 .container { border: 1px solid #000}
-
-ul#menu { color: rgb(57,101,209); text-transform: uppercase; font-size:1.1em;background: transparent url(/images/fons/fons-menu.png) no-repeat 0 0;padding: 1px 0; margin:10px 0}
-ul#menu li { display: inline; margin: 0 3px;}
-ul#menu li a { display: block;}
-
 .detail img { float: left; }
-
 figure { position: relative;margin:0}
 figure:before {
     position: absolute;
@@ -55,12 +49,32 @@ figure:before {
 
 
 /***** FOTOS *****/
+
+ul#menu-fotos { color: rgb(57,101,209); text-transform: uppercase; font-size:1.1em;background: transparent url(/images/fons/fons-menu.png) no-repeat 0 0;padding: 1px 0; margin:10px 0}
+ul#menu-fotos li { display: inline; margin: 0 3px;}
+ul#menu-fotos li a { display: block;color:rgb(81,101,209)}
 #galeria { position: relative;}
 ul.imatges { list-style: none; position: absolute; bottom: 15px; left: 20px;z-index: 50}
 ul.imatges li { margin: 0; padding: 0; display: inline}
 ul.imatges li img {  }
 
-.text { background-color: rgb(216,227,246); position: relative  }
+.text { background-color: rgb(225,232,248); position: relative  }
 .detail { float: left;margin: 0 0 0 -33px;padding: 9px;}
 .detail img { -moz-box-shadow: 5px 5px 10px #AAA; box-shadow: 5px 5px 10px #AAA;}
 .column { width: 280px;margin: 0 6px;float: left;padding: 10px 5px;}
+
+/****** MENU  **********/
+#menu { position: relative; background-color: rgb(225,232,248)  }
+.nav { padding: 10px}
+.clip { background: transparent url(/images/menu/clip.png) no-repeat 0 0; position: absolute; width:29px;height: 49px;top:-9px;left:-10px }
+ul.nav li { background-repeat: no-repeat;
+    padding: 20px 0 13px 38px;
+    border-bottom: 3px solid white;
+    font-size: 1.2em;background-position: 0 15px}
+#comarribar { background-image: url(/images/menu/pdf.png);}
+#tarifes { background-image: url(/images/menu/euro.png);}
+#condicions { background-image: url(/images/menu/condicions.png);}
+#serveis { background-image:  url(/images/menu/serveis.png);}
+#mascotes { background-image:  url(/images/menu/mascotes.png);}
+
+
