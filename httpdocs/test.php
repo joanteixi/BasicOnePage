@@ -8,6 +8,12 @@
     <link href="/css/styles.css" rel="stylesheet">
     <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
     <script type="text/javascript" src="/js/placeholder.js"></script>
+    <style>
+        ::-webkit-input-placeholder { color:#999; }
+        :-moz-placeholder { color:#999; }
+        :-ms-input-placeholder { color:#999; }
+        .placeholder { color:#999; }
+    </style>
 </head>
 <body>
 <div class='container'>
