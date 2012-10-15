@@ -18,6 +18,7 @@
 <div class='container'>
     <h2>Provant si va el placehoder...</h2>
     <form>
+        <p id='actiu'></p>
         <input placeholder="Posa el teu nom... " type='text' />
      </form>
 </div>
