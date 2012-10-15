@@ -64,17 +64,17 @@ ul.imatges li img {  }
 .column { width: 280px;margin: 0 6px;float: left;padding: 10px 5px;}
 
 /****** MENU  **********/
-#menu { position: relative; background-color: rgb(225,232,248)  }
-.nav { padding: 10px}
+#menu { background-color: rgb(225,232,248)  }
+/*.nav { padding: 10px}*/
 .clip { background: transparent url(/images/menu/clip.png) no-repeat 0 0; position: absolute; width:29px;height: 49px;top:-9px;left:-10px }
 ul.nav li { background-repeat: no-repeat;
     padding: 20px 0 13px 38px;
     border-bottom: 3px solid white;
     font-size: 1.2em;background-position: 0 15px}
-#comarribar { background-image: url(/images/menu/pdf.png);}
-#tarifes { background-image: url(/images/menu/euro.png);}
-#condicions { background-image: url(/images/menu/condicions.png);}
-#serveis { background-image:  url(/images/menu/serveis.png);}
-#mascotes { background-image:  url(/images/menu/mascotes.png);}
+#comarribar_link { background-image: url(/images/menu/pdf.png);}
+#tarifes_link { background-image: url(/images/menu/euro.png);}
+#condicions_link { background-image: url(/images/menu/condicions.png);}
+#serveis_link { background-image:  url(/images/menu/serveis.png);}
+#mascotes_link { background-image:  url(/images/menu/mascotes.png);}
 
 
