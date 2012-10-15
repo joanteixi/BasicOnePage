@@ -1,5 +1,6 @@
 setup_placeholders = (function() {
     $.support.placeholder = false;
+    console.log('enabled')
     var test = document.createElement('input');
     if('placeholder' in test) {
         $.support.placeholder = true;

@@ -10,7 +10,7 @@
     <script type="text/javascript" src="/js/placeholder.js"></script>
 <script type='text/javascript'>
     $(function() {
-        $.setup_placeholders();
+        setup_placeholders();
     })
 </script>
 </head>
