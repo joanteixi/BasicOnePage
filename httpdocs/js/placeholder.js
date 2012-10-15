@@ -1,34 +1,24 @@
-setup_placeholders = (function () {
-    $.support.placeholder = false;
-    var test = document.createElement('input');
-
-    return function () {
-        $(function () {
-            $('#actiu').html('plugin actiu');
-            var active = document.activeElement;
-            $('form').delegate(':text', 'focus',function () {
-                var _placeholder = $(this).attr('placeholder'),
-                    _val = $(this).val();
-                if (_placeholder != '' && _val == _placeholder) {
-                    $(this).val('').removeClass('hasPlaceholder');
-                }
-            }).delegate(':text', 'blur',function () {
-                    var _placeholder = $(this).attr('placeholder'),
-                        _val = $(this).val();
-                    // No need to test for values specific to a particular jQuery version
-                    // undefined and an empty string both are falsy
-                    if (!_placeholder && ( _val == '' || _val == _placeholder)) {
-                        $(this).val(_placeholder).addClass('hasPlaceholder');
-                    }
-                }).submit(function () {
-                    $(this).find('.hasPlaceholder').each(function () {
-                        $(this).val('');
-                    });
-                });
-            $(':text').blur();
-            $(active).focus();
-        });
-
+$(document).ready(function(){
+    function add() {
+        if($(this).val() == ''){
+            $(this).val($(this).attr('placeholder')).addClass('placeholder');
+        }
     }
-})();
 
+    function remove() {
+        if($(this).val() == $(this).attr('placeholder')){
+            $(this).val('').removeClass('placeholder');
+        }
+    }
+
+    // Create a dummy element for feature detection
+    if (!('placeholder' in $('<input>')[0])) {
+        // Select the elements that have a placeholder attribute
+        $('input[placeholder], textarea[placeholder]').blur(add).focus(remove).each(add);
+
+        // Remove the placeholder text before the form is submitted
+        $('form').submit(function(){
+            $(this).find('input[placeholder], textarea[placeholder]').each(remove);
+        });
+    }
+});
