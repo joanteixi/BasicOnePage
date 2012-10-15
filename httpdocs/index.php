@@ -6,8 +6,9 @@
     <!-- Bootstrap -->
     <link href="/css/bootstrap.min.css" rel="stylesheet">
     <link href="/css/styles.css" rel="stylesheet">
+
 </head>
-<body>
+<body data-spy="scroll" data-target=".bs-docs-sidebar">
 <div class='container'>
 
     <div class='row' id='top'>
@@ -63,15 +64,12 @@
 
         <div class='span4' id='right_column'>
             <div id='calendar'>
-
                 <h2>Disponibilitat</h2>
                 <iframe src="https://www.google.com/calendar/embed?showTitle=0&amp;showPrint=0&amp;showTabs=0&amp;showCalendars=0&amp;showTz=0&amp;height=280&amp;wkst=2&amp;bgcolor=%23FFFFFF&amp;src=maristesbadalona.com_dkkv66gv3k180t0uil9a05l7b0%40group.calendar.google.com&amp;color=%232F6309&amp;ctz=Europe%2FMadrid"
                         style=" border-width:0 " width="250" height="280" frameborder="0" scrolling="no"></iframe>
-                <div id='booking'>
-                    <h2>Reserves</h2>
-
-                    <p class='highlight'>VOLS FER UNA RESERVA O UNA CONSULTA SOBRE ES PORTITXÓ; </p>
-                </div>
+            </div>
+            <div id='booking'>
+                <h2>RESERVAR CASA <br/>ES PORTITXO</h2>
             </div>
         </div>
     </div>
@@ -95,7 +93,7 @@
     <div id='content' class='row'>
 
         <div class='span8'>
-            <section class='description text'>
+            <section id='descripcio' class='description text clearfix'>
 
                 <div class='column'>
                     <div class='detail'>
@@ -134,6 +132,7 @@
                 </div>
             </section>
             <section id='tarifes'>
+                <h2><span class='destacat'>Tarifes Es Portitxó</span> | Es Portitxó </h2>
                 <ul>
                     <li>Juny 1a quinzena<span class='preu'>700 euros/setmana</span></li>
                     <li>Juny 2a quinzena<span class='preu'>950 euros/setmana</span></li>
@@ -147,18 +146,124 @@
                 </ul>
             </section>
             <section id="condicions">
-                <p>blablabla</p>
+                <h2><span class='destacat'>Condicions</span> | Es Portitxó </h2>
+
+                <div class='column'>
+                    <strong>Roba blanca</strong>:<br/>
+                    Cada joc individual inclou: roba llit, manta, tovallola gran i petita, per a cada llit: vànova, per
+                    a
+                    cada bany: estora bany i paper higiènic. <br/>
+                    <strong>Preu: 120,00 euros.</strong>
+                    recàrrecs:
+                    Cada joc individual
+                    gran i petita, per a cada llit: vànova, per a cada bany:
+                    Horari d’entrada
+                    entre les 16:00h i les 20:00h, recàr-
+                    estora bany i paper higiènic.
+                    rec de
+                    50 euros. Horari d’entrada entre les 20:00h i les
+                    Preu: 10,00 euros/persona.
+                </div>
+                <div class='column'>
+                    <strong>Roba blanca</strong>:<br/>
+                    Cada joc individual inclou: roba llit, manta, tovallola gran i petita, per a cada llit: vànova, per
+                    a
+                    cada bany: estora bany i paper higiènic. <br/>
+                    <strong>Preu: 120,00 euros.</strong>
+                    recàrrecs:
+                    Cada joc individual
+                    gran i petita, per a cada llit: vànova, per a cada bany:
+                    Horari d’entrada
+                    entre les 16:00h i les 20:00h, recàr-
+                    estora bany i paper higiènic.
+                    rec de
+                    50 euros. Horari d’entrada entre les 20:00h i les
+                    Preu: 10,00 euros/persona.
+                </div>
+            </section>
+            <section id='serveis'>
+                <h2><span class='destacat'>Serveis</span> | Es Portitxó </h2>
+
+                <div class='column'>
+                    <strong>Roba blanca</strong>:<br/>
+                    Cada joc individual inclou: roba llit, manta, tovallola gran i petita, per a cada llit: vànova, per
+                    a
+                    cada bany: estora bany i paper higiènic. <br/>
+                    <strong>Preu: 120,00 euros.</strong>
+                    recàrrecs:
+                    Cada joc individual
+                    gran i petita, per a cada llit: vànova, per a cada bany:
+                    Horari d’entrada
+                    entre les 16:00h i les 20:00h, recàr-
+                    estora bany i paper higiènic.
+                    rec de
+                    50 euros. Horari d’entrada entre les 20:00h i les
+                    Preu: 10,00 euros/persona.
+                </div>
+                <div class='column'>
+                    <strong>Roba blanca</strong>:<br/>
+                    Cada joc individual inclou: roba llit, manta, tovallola gran i petita, per a cada llit: vànova, per
+                    a
+                    cada bany: estora bany i paper higiènic. <br/>
+                    <strong>Preu: 120,00 euros.</strong>
+                    recàrrecs:
+                    Cada joc individual
+                    gran i petita, per a cada llit: vànova, per a cada bany:
+                    Horari d’entrada
+                    entre les 16:00h i les 20:00h, recàr-
+                    estora bany i paper higiènic.
+                    rec de
+                    50 euros. Horari d’entrada entre les 20:00h i les
+                    Preu: 10,00 euros/persona.
+                </div>
+            </section>
+            <section id="mascotes">
+                <h2><span class='destacat'>Mascotes</span> | Es Portitxó </h2>
+
+                <div class='column'>
+                    <strong>Roba blanca</strong>:<br/>
+                    Cada joc individual inclou: roba llit, manta, tovallola gran i petita, per a cada llit: vànova, per
+                    a
+                    cada bany: estora bany i paper higiènic. <br/>
+                    <strong>Preu: 120,00 euros.</strong>
+                    recàrrecs:
+                    Cada joc individual
+                    gran i petita, per a cada llit: vànova, per a cada bany:
+                    Horari d’entrada
+                    entre les 16:00h i les 20:00h, recàr-
+                    estora bany i paper higiènic.
+                    rec de
+                    50 euros. Horari d’entrada entre les 20:00h i les
+                    Preu: 10,00 euros/persona.
+                </div>
+                <div class='column'>
+                    <strong>Roba blanca</strong>:<br/>
+                    Cada joc individual inclou: roba llit, manta, tovallola gran i petita, per a cada llit: vànova, per
+                    a
+                    cada bany: estora bany i paper higiènic. <br/>
+                    <strong>Preu: 120,00 euros.</strong>
+                    recàrrecs:
+                    Cada joc individual
+                    gran i petita, per a cada llit: vànova, per a cada bany:
+                    Horari d’entrada
+                    entre les 16:00h i les 20:00h, recàr-
+                    estora bany i paper higiènic.
+                    rec de
+                    50 euros. Horari d’entrada entre les 20:00h i les
+                    Preu: 10,00 euros/persona.
+                </div>
             </section>
         </div>
 
         <div class='span4 bs-docs-sidebar' id='menu'>
             <span class='clip'></span>
-            <ul class='nav nav-list affix bs-docs-sidenav ' data-spy="affix">
-                <li id='comarribar_link'><a href="">Com arribar-hi</a></li>
+            <ul class='nav nav-list bs-docs-sidenav '>
+                <li id='descripcio_link'><a href="#descripcio">Es portitxó</a></li>
                 <li id='tarifes_link'><a href="#tarifes">Tarifes - 2012</a></li>
                 <li id='condicions_link'><a href="#condicions">Condicions de contractació</a></li>
-                <li id='serveis_link'><a href="">Serveis opcionals</a></li>
-                <li id='mascotes_link'><a href="">Mascotes</a></li>
+                <li id='serveis_link'><a href="#serveis">Serveis opcionals</a></li>
+                <li id='mascotes_link'><a href="#mascotes">Mascotes</a></li>
+                <li id='comarribar_link'><a href="">Com arribar-hi</a></li>
             </ul>
         </div>
     </div>
@@ -167,10 +272,33 @@
 <script src="http://code.jquery.com/jquery-latest.js"></script>
 <script src="/js/bootstrap.min.js"></script>
 <script src="/js/thumbnailer.js"></script>
+<script type="text/javascript" src="/js/scrollto.js"></script>
+
 <script type="text/javascript">
     $('#galeria').thumbnailer();
-    //    Galleria.loadTheme('/js/galleria/themes/classic/galleria.classic.min.js');
-    //    Galleria.run('#galleria');
+
+    //scroll...
+    console.log($('#menu').css('marginTop'))
+    var menuPos = $('#menu').offset().top - parseFloat($('#menu').css('marginTop').replace(/auto/,0));
+
+    $(window).scroll(function (event) {
+        // what the y position of the scroll is
+        var y = $(this).scrollTop();
+        // whether that's below the form
+        if (y >= menuPos) {
+            // if so, ad the fixed class
+            $('#menu').addClass('fixed');
+        } else {
+            // otherwise remove it
+            $('#menu').removeClass('fixed');
+        }
+    });
+
+    $('#menu a').click(function(ev) {
+        ev.preventDefault();
+
+        $(window).scrollTo($(this).attr('href'),800);
+    })
 
 </script>
 

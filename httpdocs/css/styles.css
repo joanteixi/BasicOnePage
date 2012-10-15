@@ -41,12 +41,14 @@ figure:before {
 
 .head h1 { background: transparent url(/images/logo-esportitxo.png) no-repeat 0 0;padding:65px 0 0 70px;margin:0;font-size:14px}
 
+h2 { font-size: 15px; text-transform: uppercase;color: rgb(46, 81, 203);letter-spacing: 2px;line-height: 20px;}
+
 #primary-image { position: relative;}
 #primary-image .contorn { position: absolute;z-index:40}
 
-#calendar { background: transparent url(/images/fons/fons-calendari.png) no-repeat 0 0;}
-#booking { background: transparent url(/images/fons/fons-reserva.png) no-repeat 0 0; }
-
+#calendar { background: transparent url(/images/fons/fons-calendari.png) no-repeat 0 0;padding: 10px}
+#booking { background: transparent url(/images/fons/fons-reserva.png) no-repeat 0 0; height: 95px; padding: 10px 0 0 17px;}
+#booking h2 { height: 55px;font-size: 19px;padding-left: 70px;background: transparent url(/images/sobre-mail.png) no-repeat 0 0;}
 
 /***** FOTOS *****/
 
@@ -77,4 +79,7 @@ ul.nav li { background-repeat: no-repeat;
 #serveis_link { background-image:  url(/images/menu/serveis.png);}
 #mascotes_link { background-image:  url(/images/menu/mascotes.png);}
 
+/*#content { position: relative;}*/
+#menu { }
+#menu.fixed { position: fixed;top:0px;left:790px}
 
