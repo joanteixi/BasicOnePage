@@ -81,5 +81,5 @@ ul.nav li { background-repeat: no-repeat;
 
 /*#content { position: relative;}*/
 #menu { }
-#menu.fixed { position: fixed;top:0px;left:790px}
+#menu.fixed { position: fixed;top:10px;left:790px}
 
