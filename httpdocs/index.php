@@ -72,20 +72,18 @@
                 <h2>RESERVAR CASA <br/>ES PORTITXO</h2>
             </div>
         </div>
-    </div>
 
 
-    <div id='thumbs' class='row'>
-        <div class='span8'>
+        <div id='thumbs' class='span8'>
             <ul id='menu-fotos'>
-                <li>Casa</li>
-                <li>Cuina</li>
-                <li>Menjador</li>
-                <li>Terrassa</li>
-                <li>Habitacions</li>
-                <li>Bayns</li>
-                <li>Planta</li>
-                <li>Cadaqués</li>
+                <li><a href="">Casa</a></li>
+                <li><a href="">Cuina</a></li>
+                <li><a href="">Menjador</a></li>
+                <li><a href="">Terrassa</a></li>
+                <li><a href="">Habitacions</a></li>
+                <li><a href="">Banys</a></li>
+                <li><a href="">Planta</a></li>
+                <li><a href="">Cadaqués</a></li>
             </ul>
         </div>
     </div>
@@ -132,21 +130,49 @@
                 </div>
             </section>
             <section id='tarifes'>
+                <div id='fons-tarifes'></div>
                 <h2><span class='destacat'>Tarifes Es Portitxó</span> | Es Portitxó </h2>
-                <ul>
-                    <li>Juny 1a quinzena<span class='preu'>700 euros/setmana</span></li>
-                    <li>Juny 2a quinzena<span class='preu'>950 euros/setmana</span></li>
-                    <li>Juny 2a quinzena<span class='preu'>950 euros/setmana</span></li>
-                    <li>Juny 2a quinzena<span class='preu'>950 euros/setmana</span></li>
-                    <li>Juny 2a quinzena<span class='preu'>950 euros/setmana</span></li>
-                    <li>Juny 2a quinzena<span class='preu'>950 euros/setmana</span></li>
-                    <li>Juny 2a quinzena<span class='preu'>950 euros/setmana</span></li>
-                    <li>Juny 2a quinzena<span class='preu'>950 euros/setmana</span></li>
-                    <li>Juny 2a quinzena<span class='preu'>950 euros/setmana</span></li>
-                </ul>
+                <div class='llibreta clearfix'>
+                <table class='no-borders'>
+                    <tr>
+                        <td>Juny 1a quinzena</td>
+                        <td>700 euros/setmana</td>
+                    </tr>
+                    <tr>
+                        <td>Juny 1a quinzena</td>
+                        <td>700 euros/setmana</td>
+                    </tr>
+                    <tr>
+                        <td>Juny 1a quinzena</td>
+                        <td>700 euros/setmana</td>
+                    </tr>
+                    <tr>
+                        <td>Juny 1a quinzena</td>
+                        <td>700 euros/setmana</td>
+                    </tr>
+                    <tr>
+                        <td>Juny 1a quinzena</td>
+                        <td>700 euros/setmana</td>
+                    </tr>
+                    <tr>
+                        <td>Juny 1a quinzena</td>
+                        <td>700 euros/setmana</td>
+                    </tr>
+                    <tr>
+                        <td>Juny 1a quinzena</td>
+                        <td>700 euros/setmana</td>
+                    </tr>
+                    <tr>
+                        <td>Juny 1a quinzena</td>
+                        <td>700 euros/setmana</td>
+                    </tr>
+
+                </table>
+                </div>
             </section>
-            <section id="condicions">
+            <section id="condicions" class=''>
                 <h2><span class='destacat'>Condicions</span> | Es Portitxó </h2>
+                <div class='llibreta clearfix'>
 
                 <div class='column'>
                     <strong>Roba blanca</strong>:<br/>
@@ -180,9 +206,11 @@
                     50 euros. Horari d’entrada entre les 20:00h i les
                     Preu: 10,00 euros/persona.
                 </div>
+                    </div>
             </section>
-            <section id='serveis'>
+            <section id='serveis' class=''>
                 <h2><span class='destacat'>Serveis</span> | Es Portitxó </h2>
+                <div class='llibreta clearfix'>
 
                 <div class='column'>
                     <strong>Roba blanca</strong>:<br/>
@@ -216,9 +244,11 @@
                     50 euros. Horari d’entrada entre les 20:00h i les
                     Preu: 10,00 euros/persona.
                 </div>
+                    </div>
             </section>
-            <section id="mascotes">
+            <section id="mascotes" class=''>
                 <h2><span class='destacat'>Mascotes</span> | Es Portitxó </h2>
+                <div class='llibreta clearfix'>
 
                 <div class='column'>
                     <strong>Roba blanca</strong>:<br/>
@@ -252,13 +282,14 @@
                     50 euros. Horari d’entrada entre les 20:00h i les
                     Preu: 10,00 euros/persona.
                 </div>
+                    </div>
             </section>
         </div>
 
         <div class='span4 bs-docs-sidebar' id='menu'>
             <span class='clip'></span>
             <ul class='nav nav-list bs-docs-sidenav '>
-                <li id='descripcio_link'><a href="#descripcio">Es portitxó</a></li>
+                <li id='esportitxo_link'><a href="#esportitxo">Es portitxó</a></li>
                 <li id='tarifes_link'><a href="#tarifes">Tarifes - 2012</a></li>
                 <li id='condicions_link'><a href="#condicions">Condicions de contractació</a></li>
                 <li id='serveis_link'><a href="#serveis">Serveis opcionals</a></li>
@@ -267,6 +298,9 @@
             </ul>
         </div>
     </div>
+
+
+<div id='footer'></div>
 </div>
 
 <script src="http://code.jquery.com/jquery-latest.js"></script>

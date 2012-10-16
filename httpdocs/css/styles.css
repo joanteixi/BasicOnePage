@@ -1,23 +1,14 @@
-.container { border: 1px solid #000}
+.container { border: 2px solid #0050D0;background: white url(/images/estacions/estiu-gran.png) no-repeat 50% 20px;}
 .detail img { float: left; }
-figure { position: relative;margin:0}
-figure:before {
-    position: absolute;
-    content: ' ';
-    top: 0;
-    left: 50%;
-    width: 100%;
-    height: 100%;
-    background: url(/images/contorn-fotos.png) no-repeat;
-}
-#top .row { margin-bottom: 40px;}
+#top { margin-bottom: 40px;}
+ul li { list-style: none;}
 
 /***** IDIOMES TOP ***/
 .idiomes { margin-bottom: 45px;}
 .idiomes ul { margin:0;padding:0}
 .idiomes ul li { float: left; min-width: 50px;list-style: none;text-align: center;height: 1px;}
-.idiomes ul li a { padding: 30px 0 0 0;display: block;background-repeat: no-repeat; background-position: 50% 0; height: 0;}
-.idiomes ul li a:hover { background-position: 50% -27px;}
+.idiomes ul li a { padding: 30px 0 0 0;display: block;background-repeat: no-repeat; background-position: 50% 2px; height: 0;}
+.idiomes ul li a:hover { background-position: 50% -26px;}
 
 .idiomes ul li#ca a { background-image: url(/images/banderes/ca.png) }
 .idiomes ul li#es a { background-image: url(/images/banderes/es.png) }
@@ -29,7 +20,7 @@ figure:before {
 .estacions { background: transparent url(/images/estacions/pastilla-estacions.png) no-repeat 0 0;}
 .estacions ul { margin:0;padding:0}
 
-.estacions p { margin: 4px 0 0 16px; color: white;font-size: 1.3em;}
+.estacions p { margin: 4px 0 0 16px; color: white;font-size: 19px;font-family: Garamond, serif;}
 .estacions ul { margin-top: 10px}
 .estacions ul li { float: left; list-style: none;text-align: center;height: 1px;}
 .estacions ul li a { font-size:0.8em; display: block;padding: 0 0 40px 0; width:73px; background-repeat: no-repeat;background-position: 50% 0;}
@@ -39,47 +30,68 @@ figure:before {
 .estacions ul li#tardor a { background-image: url(/images/estacions/tardor.png)}
 
 
-.head h1 { background: transparent url(/images/logo-esportitxo.png) no-repeat 0 0;padding:65px 0 0 70px;margin:0;font-size:14px}
+.head h1 { background: transparent url(/images/logo-esportitxo.png) no-repeat 20px 0;padding:65px 0 0 70px;margin:0;font-size:14px}
 
-h2 { font-size: 15px; text-transform: uppercase;color: rgb(46, 81, 203);letter-spacing: 2px;line-height: 20px;}
+h2 { font-family: Verdana, serif; font-size: 12px; text-transform: uppercase;color:#0050d0;letter-spacing: 2px;line-height: 20px;}
 
 #primary-image { position: relative;}
 #primary-image .contorn { position: absolute;z-index:40}
 
-#calendar { background: transparent url(/images/fons/fons-calendari.png) no-repeat 0 0;padding: 10px}
-#booking { background: transparent url(/images/fons/fons-reserva.png) no-repeat 0 0; height: 95px; padding: 10px 0 0 17px;}
-#booking h2 { height: 55px;font-size: 19px;padding-left: 70px;background: transparent url(/images/sobre-mail.png) no-repeat 0 0;}
-
+#right_column { background: transparent url(/images/fons/fons-calendari.png) no-repeat 0 0;}
+#calendar { padding: 10px}
+#booking { padding: 0px 0 0 5px;}
+#booking h2 { height: 55px;font-size: 14px;padding-left: 70px;background: transparent url(/images/sobre-mail.png) no-repeat 0 0;}
+#content { margin-top: 10px }
 /***** FOTOS *****/
 
-ul#menu-fotos { color: rgb(57,101,209); text-transform: uppercase; font-size:1.1em;background: transparent url(/images/fons/fons-menu.png) no-repeat 0 0;padding: 1px 0; margin:10px 0}
+ul#menu-fotos { font-family: Verdana; text-transform: uppercase; font-size:0.9em;background: transparent url(/images/fons/fons-menu.png) no-repeat 0 0;padding: 1px 11px; margin:10px 0}
 ul#menu-fotos li { display: inline; margin: 0 3px;}
-ul#menu-fotos li a { display: block;color:rgb(81,101,209)}
+ul#menu-fotos li a {color: #0050d0}
 #galeria { position: relative;}
 ul.imatges { list-style: none; position: absolute; bottom: 15px; left: 20px;z-index: 50}
 ul.imatges li { margin: 0; padding: 0; display: inline}
 ul.imatges li img {  }
 
-.text { background-color: rgb(225,232,248); position: relative  }
+.text {  position: relative  }
 .detail { float: left;margin: 0 0 0 -33px;padding: 9px;}
 .detail img { -moz-box-shadow: 5px 5px 10px #AAA; box-shadow: 5px 5px 10px #AAA;}
-.column { width: 280px;margin: 0 6px;float: left;padding: 10px 5px;}
+.column { width: 270px;margin: 0 6px;float: left;padding: 10px 5px;}
 
 /****** MENU  **********/
-#menu { background-color: rgb(225,232,248)  }
-/*.nav { padding: 10px}*/
 .clip { background: transparent url(/images/menu/clip.png) no-repeat 0 0; position: absolute; width:29px;height: 49px;top:-9px;left:-10px }
-ul.nav li { background-repeat: no-repeat;
+ul.nav li { font-family: Verdana; font-weight:bold;background-repeat: no-repeat;
     padding: 20px 0 13px 38px;
     border-bottom: 3px solid white;
-    font-size: 1.2em;background-position: 0 15px}
+    font-size: 1.1em;background-position: 0 15px}
+ul.nav a:hover { background: none;}
+ul.nav li.active a { background: none;color: rgb(217, 46, 18);text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.2);}
+ul.nav li.active a:hover { background: none;color: rgb(217, 46, 18) }
+ul.nav li a:hover { background: none;color: rgb(217, 46, 18) }
+
+#esportitxo_link { background-image: url(/images/menu/esportitxo.png);}
 #comarribar_link { background-image: url(/images/menu/pdf.png);}
 #tarifes_link { background-image: url(/images/menu/euro.png);}
 #condicions_link { background-image: url(/images/menu/condicions.png);}
 #serveis_link { background-image:  url(/images/menu/serveis.png);}
 #mascotes_link { background-image:  url(/images/menu/mascotes.png);}
 
-/*#content { position: relative;}*/
-#menu { }
+#descripcio { background: rgb(225,232,248) url(/images/fons/silueta-cadaques.png) no-repeat 50% 100%;}
+#tarifes { position: relative; }
+#fons-tarifes { position: absolute; width: 80px;height: 107px;background: transparent url(/images/fons/euro.png) no-repeat 0% 0%;top: 50%; right: 10px;}
+#menu { position: relative;background-color: rgb(225,232,248)  }
+
 #menu.fixed { position: fixed;top:10px;left:790px}
 
+#thumbs { margin: -35px 0 0 39px;}
+#footer { min-height:175px; background: transparent url(/images/365.png) no-repeat 100% 100%;}
+section { margin: 0 0 50px 27px}
+
+.llibreta { padding:10px 50px; background: transparent url(/images/fons/paper.png) repeat-y 0 0;
+-moz-box-shadow: 3px 3px 10px #ccc; -webkit-box-shadow: 3px 3px 10px #ccc; box-shadow: 3px 3px 10px #ccc;}
+.llibreta li { margin: 5px 0; font-weight: bold;}
+
+.destacat { color: rgb(217, 46, 18); }
+
+table.no-borders { border: none}
+table.no-borders td { width: 200px}
+table.no-borders { font-weight: bold;}
