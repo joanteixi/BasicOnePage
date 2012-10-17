@@ -108,7 +108,7 @@ $fotos = $finder->files()->in(__DIR__ . '/images/fotos');
 
         <div class='column'>
             <div class='detail'>
-                <img width='200px' src='/images/detalle.png'/>
+                <img width='200px' src='/images/cadaques-prova.png'/>
             </div>
             <p>
                 Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem
@@ -145,7 +145,6 @@ $fotos = $finder->files()->in(__DIR__ . '/images/fotos');
     <section id='tarifes'>
         <div id='fons-tarifes'></div>
         <h2><span class='destacat'>Tarifes Es Portitxó</span> | Es Portitxó </h2>
-
         <div class='llibreta clearfix'>
             <table class='no-borders'>
                 <tr>
@@ -333,10 +332,11 @@ $fotos = $finder->files()->in(__DIR__ . '/images/fotos');
         $('#slider').find('img').before(pattern);
 
         $('#slider').anythingSlider({
-            enableArrows:false,
-            buildNavigation:false,
-            buildStartStop:false,
-            hashTags:false
+            buildArrows: false,
+            buildNavigation: false,
+            buildStartStop: false,
+            hashTags: false,
+            autoPlay: true
         });
 
         $('.thumbnails a').live('click', function (ev) {

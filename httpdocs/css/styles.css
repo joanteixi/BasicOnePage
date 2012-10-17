@@ -32,8 +32,8 @@ ul li { list-style: none;}
 
 .head h1 { color: #0050D0; font-size:12px;  background: transparent url(/images/logo-esportitxo.png) no-repeat 20px 0;padding:65px 0 0 70px;margin:0}
 
-h2 { font-family: Verdana, serif; font-size: 12px; text-transform: uppercase;color:#0050d0;line-height: 20px;}
-
+h2 { font-family: Verdana, serif; font-size: 12px; text-transform: uppercase;color:#000;line-height: 20px;}
+section h2 { color: #0050d0     }
 #primary-image { position: relative;}
 #primary-image .contorn { position: absolute;z-index:40}
 
@@ -44,7 +44,8 @@ h2 { font-family: Verdana, serif; font-size: 12px; text-transform: uppercase;col
 #content { margin-top: 10px }
 /***** FOTOS *****/
 
-ul#menu-fotos { font-family: Verdana; text-transform: uppercase; font-size:0.9em;background: transparent url(/images/fons/fons-menu.png) no-repeat 0 0;padding: 1px 11px; margin:10px 0}
+ul#menu-fotos { font-family: Verdana; text-transform: uppercase; font-size:0.8em;text-align: center;width:615px;
+    background: transparent url(/images/fons/fons-menu.png) no-repeat 2px 0;padding: 1px 0; margin:0;}
 ul#menu-fotos li { display: inline; margin: 0 3px;}
 ul#menu-fotos li a {color: #0050d0}
 ul.thumbnails { list-style: none;
@@ -65,19 +66,19 @@ ul.thumbnails li img:hover {  opacity: 1;}
 .text {  position: relative  }
 .detail { float: left;margin: 0 0 0 -33px;padding: 9px;}
 .detail img { -moz-box-shadow: 5px 5px 10px #AAA; box-shadow: 5px 5px 10px #AAA;}
-.column { width: 270px;margin: 0 6px;float: left;padding: 10px 5px;}
+.column { width: 270px;margin: 0 6px;float: left;padding: 10px 5px;text-align: justify;}
 
 /****** MENU  **********/
 .clip { background: transparent url(/images/menu/clip.png) no-repeat 0 0; position: absolute; width:29px;height: 49px;top:-9px;left:-10px }
 ul.nav li { font-family: Verdana; font-weight:bold;background-repeat: no-repeat;
-    padding: 20px 0 13px 38px;
+    padding: 20px 0 13px 45px;
     border-bottom: 3px solid white;
-    font-size: 1.1em;background-position: 0 15px}
+    font-size: 13px;background-position: 6px 15px;text-transform: uppercase;}
 ul.nav a:hover { background: none;}
 ul.nav li.active a { background: none;color: rgb(217, 46, 18);text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.2);}
 ul.nav li.active a:hover { background: none;color: rgb(217, 46, 18) }
 ul.nav li a:hover { background: none;color: rgb(217, 46, 18) }
-
+ul.nav-list a { padding: 3px 21px }
 #esportitxo_link { background-image: url(/images/menu/esportitxo.png);}
 #comarribar_link { background-image: url(/images/menu/pdf.png);}
 #tarifes_link { background-image: url(/images/menu/euro.png);}
@@ -93,13 +94,13 @@ ul.nav li a:hover { background: none;color: rgb(217, 46, 18) }
 #menu.fixed { position: fixed;top:10px;left:790px}
 
 #thumbs { margin: -35px 0 0 39px;}
-#footer { min-height:175px; background: transparent url(/images/365.png) no-repeat 100% 100%;}
+#footer { min-height:175px; background: transparent url(/images/fons/365.png) no-repeat 100% 100%;}
 section { margin: 0 0 50px 27px}
 
-.llibreta { padding:10px 50px; background: transparent url(/images/fons/paper.png) repeat-y 0 0;
+.llibreta { padding:10px 0 10px 40px; background: transparent url(/images/fons/paper.png) repeat-y 0 0;
 -moz-box-shadow: 3px 3px 10px #ccc; -webkit-box-shadow: 3px 3px 10px #ccc; box-shadow: 3px 3px 10px #ccc;}
 .llibreta li { margin: 5px 0; font-weight: bold;}
-
+.llibreta > .column { width:240px; margin: 0 10px }
 .destacat { color: rgb(217, 46, 18); }
 
 table.no-borders { border: none}
@@ -108,7 +109,7 @@ table.no-borders { font-weight: bold;}
 
 #primary-image { overflow: hidden;width: 600px; height: 400px;}
 
-
+section.with365 { background: transparent url(/images/fons/365.png)}
 #slider {
     width: 600px;
     height: 390px;
