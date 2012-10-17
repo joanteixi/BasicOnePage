@@ -12,10 +12,7 @@
         function onClick(event) {
             event.preventDefault();
             newImage = $(this).find('img').attr('src');
-            imageContainer.fadeOut(function() {
-                imageContainer.attr('src', newImage);
-            });
-            imageContainer.fadeIn();
+            $('#primary-image').scrollTo($(this).attr('href'), 500);
 
             return false;
         }
