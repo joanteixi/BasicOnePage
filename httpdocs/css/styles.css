@@ -66,8 +66,8 @@ ul.thumbnails li img {  opacity: 0.4;
 ul.thumbnails li img:hover {  opacity: 1;}
 #galeria { position: relative }
 .text {  position: relative  }
-.detail { float: left;margin: 0 0 0 -33px;padding: 0px;}
-.detail img {}
+.detail { margin:0;padding: 0;}
+.detail img {width: 100%}
 .column { width: 270px;margin: 0 6px;float: left;padding: 10px 5px;text-align: justify;}
 
 /****** MENU  **********/
