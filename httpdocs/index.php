@@ -315,7 +315,7 @@ $fotos = $finder->files()->in(__DIR__ . '/images/fotos');
 
         <span class='clip'></span>
         <ul class='nav nav-list bs-docs-sidenav '>
-            <li id='esportitxo_link'><a href="#esportitxo">Es portitxó</a></li>
+            <li id='esportitxo_link'><a href="#descripcio">&laquo;Es portitxó&raquo;</a></li>
             <li id='tarifes_link'><a href="#tarifes">Tarifes - 2012</a></li>
             <li id='condicions_link'><a href="#condicions">Condicions de contractació</a></li>
             <li id='serveis_link'><a href="#serveis">Serveis opcionals</a></li>
