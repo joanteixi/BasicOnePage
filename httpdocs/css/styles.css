@@ -90,6 +90,7 @@ ul.nav-list a { padding: 3px 21px }
 #mascotes_link { background-image:  url(/images/menu/mascotes.png);}
 
 #descripcio { background: rgb(225,232,248) url(/images/fons/silueta-cadaques.png) no-repeat 50% 100%;}
+#descripcio p { font-size: 13px;}
 #tarifes { position: relative; }
 #fons-tarifes { position: absolute; width: 80px;height: 107px;background: transparent url(/images/fons/euro.png) no-repeat 0% 0%;top: 50%; right: 10px;}
 #menu { position: relative;background-color: rgb(225,232,248)  }

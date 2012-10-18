@@ -84,7 +84,7 @@ $fotos = $finder->files()->in(__DIR__ . '/images/fotos');
                     style=" border-width:0 " width="250" height="280" frameborder="0" scrolling="no"></iframe>
         </div>
         <div id='booking'>
-            <h2>RESERVAR CASA <br/>ES PORTITXO</h2>
+            <h2>RESERVAR CASA <br/>&laquo;ES PORTITXO&raquo;</h2>
         </div>
     </div>
 
