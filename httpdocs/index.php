@@ -8,7 +8,7 @@ $fotos = $finder->files()->in(__DIR__ . '/images/fotos');
 ?>
 
 <!DOCTYPE html>
-<html>
+<html xmlns="http://www.w3.org/1999/html">
 <head>
     <meta content="text/html; charset=UTF-8" http-equiv="content-type">
     <title>Es portitxó</title>
@@ -59,7 +59,9 @@ $fotos = $finder->files()->in(__DIR__ . '/images/fotos');
     <div class='span8' id='galeria'>
         <ul id='slider'>
             <?php foreach ($fotos as $foto) : ?>
-            <li id='<?php echo $foto->getBasename('.jpg') ?>'><img class='primary-image' src='/images/fotos/<?php echo $foto->getFilename()?>'/></li>
+            <li id='<?php echo $foto->getBasename('.jpg') ?>'><img class='primary-image'
+                                                                   src='/images/fotos/<?php echo $foto->getFilename()?>'/>
+            </li>
             <?php endforeach ?>
         </ul>
         <ul class='thumbnails'>
@@ -111,74 +113,99 @@ $fotos = $finder->files()->in(__DIR__ . '/images/fotos');
                 <img width='200px' src='/images/cadaques-prova.png'/>
             </div>
             <p>
-                Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem
-                Ipsum
-                ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor
-                (N.
-                del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los
-                mezcló
-                de tal manera que logró hacer un libro de textos especimen. No sólo sobrevivió 500 años,
-                sino
-                que tambien ingresó como texto de relleno en documentos electrónicos, quedando esencialmente
-                igual al original. Fue popularizado en los 60s con la creación de las hojas "Letraset", las
-                cuales contenian pasajes de Lorem Ipsum, y más recientemente con software de autoedición,
-                como
-                por ejemplo Aldus PageMaker, el cual incluye versiones de Lorem Ipsum.</p>
+                <span class='portitxo'>Es Portitxó</span>, Casa-Dúplex, al costat de la platja. Un espai per somiar a
+                Cadaqués. Es troba a només uns metres de la cala del mateix nom, a la platja gran de Cadaqués. És una
+                casa-dúplex amb accés directe des del carrer Sant Antoni, un dels carrers amb més encant de Cadaqués.
+                L’empedrat del terra, les buganvíl·lies en tots els seus colors i el blanc de les parets són la marca de
+                personalitat d’aquest racó del Cadaqués autèntic.
+            </p>
+
+            <p>
+                Totalment equipat per a 9+2 persones (9 adults + 1 nen/nena + 1 bebé) amb total comoditat. El saló
+                disposa d’un gran sofà, i diversos mobles complementaris. A través d’un gran finestral el saló té accés
+                directe a la terrassa, amb vistes al mar i equipada amb mobiliari d’exterior. Es disposa igualment d’un
+                aparell d’aire condicionat per a l’estiu i calefacció per a l’hivern. El saló té llar de foc i una
+                pantalla plana de TV amb capacitat per reproduir CD i DVD i amb TDT incorporada.
+
+            </p>
         </div>
         <div class='column'>
+            <p> El menjador té una taula modular de grans dimensions amb les corresponents cadires i la cuina, oberta,
+                està totalment equipada amb forn, rentavaixelles, combi, microones, vitroceràmica, campana extractora i
+                tot el petit electrodomèstic i estris de cuina necesaris (torradora, espremedora, cassoles, paelles,
+                Nespresso, coberts, plats gots, copes, etc). La cuina té accés directe a una galeria amb la
+                rentadora-assecadora, la caldera d’aigua calenta, el safareig i els estris de neteja domèstica.</p>
+
             <p>
-                Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem
-                Ipsum
-                ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor
-                (N.
-                del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los
-                mezcló
-                de tal manera que logró hacer un libro de textos especimen. No sólo sobrevivió 500 años,
-                sino
-                que tambien ingresó como texto de relleno en documentos electrónicos, quedando esencialmente
-                igual al original. Fue popularizado en los 60s con la creación de las hojas "Letraset", las
-                cuales contenian pasajes de Lorem Ipsum, y más recientemente con software de autoedición,
-                como
-                por ejemplo Aldus PageMaker, el cual incluye versiones de Lorem Ipsum.</p>
+                La casa-dúplex disposa de 2 banys: un de superior amb WC, rentamans i mirall i una dutxa, i un al pis
+                inferior que disposa igualment de WC, rentamans i mirall, una banyera i bidet. En els dos casos, els
+                banys estan totalment equipats.
+
+                <span class='portitxo'>Es Portitxó</span> disposa d’una habitació doble amb armari empotrat de grans
+                dimensions i llum natural tot el dia i d’una altra habitació amb un llit doble, dos llits individuals i
+                un sofà-llit de dues places. Igualment, es disposa d’un llit petit per a nen/nena i d’un bressol per a
+                bebé. Aquesta habitació té sortida a una terrassa privada, sistema de ventilació propi i dos armaris
+                empotrats.
+
+                <span class='portitxo'>Es Portitxó</span> té llum natural durant tot el dia, davant i darrere, i està
+                orientat al sud. La immillorable ubicació dins de Cadaqués en una zona extraordinàriament tranquil·la i
+                molt propera a la platja i al passeig de Cadaqués fan de <span class='portitxo'>Es Portitxó</span> un
+                espai únic per a les vostres estàncies a Cadaqués.</p>
         </div>
     </section>
     <section id='tarifes'>
         <div id='fons-tarifes'></div>
         <h2><span class='destacat'>Tarifes Es Portitxó</span> | Es Portitxó </h2>
+
         <div class='llibreta clearfix'>
             <table class='no-borders'>
                 <tr>
-                    <td>Juny 1a quinzena</td>
+                    <td>Juny 1a quinzena:</td>
                     <td>700 euros/setmana</td>
                 </tr>
                 <tr>
-                    <td>Juny 1a quinzena</td>
+                    <td>Juny 2a quinzena:</td>
+                    <td>950 euros/setmana</td>
+                </tr>
+                <tr>
+                    <td>Juliol:</td>
+                    <td>1.260 euros/setmana</td>
+                </tr>
+                <tr>
+                    <td>Agost:</td>
+                    <td>1.950 euros/setmana</td>
+                </tr>
+                <tr>
+                    <td>Setembre 1a quinzena:</td>
+                    <td>950 euros/setmana</td>
+                </tr>
+                <tr>
+                    <td>Setembre 2a quinzena:</td>
                     <td>700 euros/setmana</td>
                 </tr>
                 <tr>
-                    <td>Juny 1a quinzena</td>
-                    <td>700 euros/setmana</td>
+                    <td>Nadal (22/12 - 26/12):</td>
+                    <td>650 euros</td>
                 </tr>
                 <tr>
-                    <td>Juny 1a quinzena</td>
-                    <td>700 euros/setmana</td>
+                    <td>Cap d'Any (29/12 - 01/01):</td>
+                    <td>750 euros</td>
                 </tr>
                 <tr>
-                    <td>Juny 1a quinzena</td>
-                    <td>700 euros/setmana</td>
+                    <td>Resta de l'any (octubre - maig):</td>
+                    <td>550 euros/setmana</td>
                 </tr>
                 <tr>
-                    <td>Juny 1a quinzena</td>
-                    <td>700 euros/setmana</td>
+                    <td>Cap de setmana (octubre - maig):</td>
+                    <td>400 euros</td>
                 </tr>
                 <tr>
-                    <td>Juny 1a quinzena</td>
-                    <td>700 euros/setmana</td>
+
+                    <td>Estades llagues d'octubre a maig:</td>
+                    <td>1.550 euros/mes (*)<br/>
+                        <span class='nota'>(*) per estades superiors a 3 mesos</span></td>
                 </tr>
-                <tr>
-                    <td>Juny 1a quinzena</td>
-                    <td>700 euros/setmana</td>
-                </tr>
+
 
             </table>
         </div>
@@ -188,38 +215,14 @@ $fotos = $finder->files()->in(__DIR__ . '/images/fotos');
 
         <div class='llibreta clearfix'>
 
-            <div class='column'>
-                <strong>Roba blanca</strong>:<br/>
-                Cada joc individual inclou: roba llit, manta, tovallola gran i petita, per a cada llit: vànova, per
-                a
-                cada bany: estora bany i paper higiènic. <br/>
-                <strong>Preu: 120,00 euros.</strong>
-                recàrrecs:
-                Cada joc individual
-                gran i petita, per a cada llit: vànova, per a cada bany:
-                Horari d’entrada
-                entre les 16:00h i les 20:00h, recàr-
-                estora bany i paper higiènic.
-                rec de
-                50 euros. Horari d’entrada entre les 20:00h i les
-                Preu: 10,00 euros/persona.
-            </div>
-            <div class='column'>
-                <strong>Roba blanca</strong>:<br/>
-                Cada joc individual inclou: roba llit, manta, tovallola gran i petita, per a cada llit: vànova, per
-                a
-                cada bany: estora bany i paper higiènic. <br/>
-                <strong>Preu: 120,00 euros.</strong>
-                recàrrecs:
-                Cada joc individual
-                gran i petita, per a cada llit: vànova, per a cada bany:
-                Horari d’entrada
-                entre les 16:00h i les 20:00h, recàr-
-                estora bany i paper higiènic.
-                rec de
-                50 euros. Horari d’entrada entre les 20:00h i les
-                Preu: 10,00 euros/persona.
-            </div>
+            <ul>
+                <li>L'entrada es farà a les 16:00h i la sortida es farà a les 11:00 h dels dies acordats.</li>
+                <li>S'abonarà el 40 % del total al formalitzar la reserva i el 60 % restant, en efectiu, al lliurar les
+                    claus.
+                </li>
+                <li>Els consums d'electricitat i aigua són inclosos al preu del lloguer.</li>
+                <li>Hi ha una fiança legal de 450 €, a retornar en lliurar les claus.</li>
+            </ul>
         </div>
     </section>
     <section id='serveis' class=''>
@@ -228,36 +231,33 @@ $fotos = $finder->files()->in(__DIR__ . '/images/fotos');
         <div class='llibreta clearfix'>
 
             <div class='column'>
-                <strong>Roba blanca</strong>:<br/>
-                Cada joc individual inclou: roba llit, manta, tovallola gran i petita, per a cada llit: vànova, per
-                a
-                cada bany: estora bany i paper higiènic. <br/>
-                <strong>Preu: 120,00 euros.</strong>
-                recàrrecs:
-                Cada joc individual
-                gran i petita, per a cada llit: vànova, per a cada bany:
-                Horari d’entrada
-                entre les 16:00h i les 20:00h, recàr-
-                estora bany i paper higiènic.
-                rec de
-                50 euros. Horari d’entrada entre les 20:00h i les
-                Preu: 10,00 euros/persona.
+                <p>
+                    Roba blanca:
+                    Cada joc individual inclou: roba llit, manta, tovallola gran i petita, per a cada llit: vànova, per
+                    a cada bany: estora bany i paper higiènic.
+                    Preu: 10,00 euros/persona.
+
+                    Neteja:
+                    Servei de neteja final “Es Portitxó” (interior, habitacions, terrasses, banys i cuina)
+                    Preu: 120,00 euros.
+                    En els casos d’incumpliment dels horaris d’entrada o de sortida s’aplicaran els següents recàrrecs:
+
+                    Horari d’entrada entre les 16:00h i les 20:00h, recàrrec de 50 euros. Horari d’entrada entre les
+                    20:00h i les 24:00h, recàrrec de 100 euros.
+                    No s’accepten entrades en horari superior a les 24:00h.
+
+                    Horari de sortida entre les 11:00h i les 13:00h, recàrrec de 50 euros.
+                    No s’accepten sortides en horari superior a les 13:00h.
+                </p>
+
             </div>
             <div class='column'>
-                <strong>Roba blanca</strong>:<br/>
-                Cada joc individual inclou: roba llit, manta, tovallola gran i petita, per a cada llit: vànova, per
-                a
-                cada bany: estora bany i paper higiènic. <br/>
-                <strong>Preu: 120,00 euros.</strong>
-                recàrrecs:
-                Cada joc individual
-                gran i petita, per a cada llit: vànova, per a cada bany:
-                Horari d’entrada
-                entre les 16:00h i les 20:00h, recàr-
-                estora bany i paper higiènic.
-                rec de
-                50 euros. Horari d’entrada entre les 20:00h i les
-                Preu: 10,00 euros/persona.
+                <p>
+                    Durant l’estada a Es Portitxó el client podrà sol·licitar directament qualsevol servei extra que
+                    necessiti i s’intentarà donar resposta, segons les possibilitats de cada moment. En aquest cas es
+                    podran facturar els costos de desplaçament, segons cada horari, així com els materials utilitzats.
+                </p>
+
             </div>
         </div>
     </section>
@@ -316,7 +316,13 @@ $fotos = $finder->files()->in(__DIR__ . '/images/fotos');
 </div>
 
 
-<div id='footer'></div>
+<div id='footer'>
+    <div class='span8'>
+
+        <p class='legal'>© esportitxo.cat | Tots els drets reservats | Avís legal | Disseny web</p>
+    </div>
+
+</div>
 </div>
 
 <script src="http://code.jquery.com/jquery-latest.js"></script>
@@ -332,11 +338,11 @@ $fotos = $finder->files()->in(__DIR__ . '/images/fotos');
         $('#slider').find('img').before(pattern);
 
         $('#slider').anythingSlider({
-            buildArrows: false,
-            buildNavigation: false,
-            buildStartStop: false,
-            hashTags: false,
-            autoPlay: true
+            buildArrows:false,
+            buildNavigation:false,
+            buildStartStop:false,
+            hashTags:false,
+            autoPlay:true
         });
 
         $('.thumbnails a').live('click', function (ev) {
