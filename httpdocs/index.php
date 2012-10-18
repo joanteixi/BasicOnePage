@@ -42,8 +42,6 @@ $fotos = $finder->files()->in(__DIR__ . '/images/fotos');
             <li id='tardor'><a href="">TARDOR</a></li>
             <li id='hivern'><a href="">HIVERN</a></li>
         </ul>
-
-
     </div>
 </div>
 
@@ -81,7 +79,12 @@ $fotos = $finder->files()->in(__DIR__ . '/images/fotos');
         <div id='calendar'>
             <h2>Disponibilitat</h2>
             <iframe src="https://www.google.com/calendar/embed?showTitle=0&amp;showPrint=0&amp;showTabs=0&amp;showCalendars=0&amp;showTz=0&amp;height=280&amp;wkst=2&amp;bgcolor=%23FFFFFF&amp;src=maristesbadalona.com_dkkv66gv3k180t0uil9a05l7b0%40group.calendar.google.com&amp;color=%232F6309&amp;ctz=Europe%2FMadrid"
-                    style=" border-width:0 " width="250" height="280" frameborder="0" scrolling="no"></iframe>
+                    style=" border-width:0 " width="250" height="260" frameborder="0" scrolling="no"></iframe>
+            <ul class='legend'>
+                <li id='avaliable'>Avaliable</li>
+                <li id='not-avaliable'>Not avaliable</li>
+                <li id='pending'>Pending request</li>
+            </ul>
         </div>
         <div id='booking'>
             <h2>RESERVAR CASA <br/>&laquo;ES PORTITXO&raquo;</h2>
@@ -112,7 +115,7 @@ $fotos = $finder->files()->in(__DIR__ . '/images/fotos');
             <div class='detail'>
                 <img src='/images/foto-casa.png'/>
             </div>
-            <p>
+            <p class='bajo_foto'>
                 <span class='portitxo'>Es Portitxó</span>, Casa-Dúplex, al costat de la platja. Un espai per somiar a
                 Cadaqués. Es troba a només uns metres de la cala del mateix nom, a la platja gran de Cadaqués. És una
                 casa-dúplex amb accés directe des del carrer Sant Antoni, un dels carrers amb més encant de Cadaqués.
@@ -158,6 +161,8 @@ $fotos = $finder->files()->in(__DIR__ . '/images/fotos');
         <h2><span class='destacat'>Tarifes Es Portitxó</span> | Es Portitxó </h2>
 
         <div class='llibreta clearfix'>
+            <span class='clip-llibreta'></span>
+
             <table class='no-borders'>
                 <tr>
                     <td>Juny 1a quinzena:</td>
@@ -214,6 +219,7 @@ $fotos = $finder->files()->in(__DIR__ . '/images/fotos');
         <h2><span class='destacat'>Condicions</span> | Es Portitxó </h2>
 
         <div class='llibreta clearfix'>
+            <span class='clip-llibreta'></span>
 
             <ul>
                 <li>L'entrada es farà a les 16:00h i la sortida es farà a les 11:00 h dels dies acordats.</li>
@@ -229,6 +235,7 @@ $fotos = $finder->files()->in(__DIR__ . '/images/fotos');
         <h2><span class='destacat'>Serveis</span> | Es Portitxó </h2>
 
         <div class='llibreta clearfix'>
+            <span class='clip-llibreta'></span>
 
             <div class='column'>
                 <p>
@@ -265,6 +272,7 @@ $fotos = $finder->files()->in(__DIR__ . '/images/fotos');
         <h2><span class='destacat'>Mascotes</span> | Es Portitxó </h2>
 
         <div class='llibreta clearfix'>
+            <span class='clip-llibreta'></span>
 
             <div class='column'>
                 <strong>Roba blanca</strong>:<br/>
@@ -303,22 +311,25 @@ $fotos = $finder->files()->in(__DIR__ . '/images/fotos');
 </div>
 
 <div class='span4 bs-docs-sidebar' id='menu'>
-    <span class='clip'></span>
-    <ul class='nav nav-list bs-docs-sidenav '>
-        <li id='esportitxo_link'><a href="#esportitxo">Es portitxó</a></li>
-        <li id='tarifes_link'><a href="#tarifes">Tarifes - 2012</a></li>
-        <li id='condicions_link'><a href="#condicions">Condicions de contractació</a></li>
-        <li id='serveis_link'><a href="#serveis">Serveis opcionals</a></li>
-        <li id='mascotes_link'><a href="#mascotes">Mascotes</a></li>
-        <li id='comarribar_link'><a href="">Com arribar-hi</a></li>
-    </ul>
+    <div id='menu-box'>
+
+        <span class='clip'></span>
+        <ul class='nav nav-list bs-docs-sidenav '>
+            <li id='esportitxo_link'><a href="#esportitxo">Es portitxó</a></li>
+            <li id='tarifes_link'><a href="#tarifes">Tarifes - 2012</a></li>
+            <li id='condicions_link'><a href="#condicions">Condicions de contractació</a></li>
+            <li id='serveis_link'><a href="#serveis">Serveis opcionals</a></li>
+            <li id='mascotes_link'><a href="#mascotes">Mascotes</a></li>
+            <li id='comarribar_link'><a href="">Com arribar-hi</a></li>
+        </ul>
+    </div>
+
 </div>
 </div>
 
 
 <div id='footer'>
     <div class='span8'>
-
         <p class='legal'>© esportitxo.cat | Tots els drets reservats | Avís legal | Disseny web</p>
     </div>
 

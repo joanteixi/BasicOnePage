@@ -41,9 +41,14 @@ section h2 { color: #0050d0     }
 #right_column { background: transparent url(/images/fons/fons-calendari.png) no-repeat 0 0;}
 #calendar { padding: 10px}
 #calendar h2 { margin-left: 66px;}
-#booking { padding: 0px 0 0 5px;}
+ul.legend  { padding:0;margin:0 0 0 9px;}
+ul.legend li { float: left;font-size:10px; background: transparent url(/images/calendari/verd.png) no-repeat 0 50%;padding: 0 0 0 15px;margin:0 4px}
+li#avaliable { background-image: url(/images/calendari/verd.png) }
+li#not-avaliable { background-image: url(/images/calendari/vermell.png) }
+li#pending { background-image: url(/images/calendari/gris.png) }
+#booking { padding: 0px 0 0 5px;margin:24px 0 0 10px}
 #booking h2 { height: 55px;font-size: 14px;padding-left: 70px;background: transparent url(/images/sobre-mail.png) no-repeat 0 0;}
-#content { margin-top: 10px }
+#content { margin-top: 10px;  }
 /***** FOTOS *****/
 
 ul#menu-fotos { font-family: Verdana; text-transform: uppercase; font-size:0.8em;text-align: center;width:615px;
@@ -66,12 +71,13 @@ ul.thumbnails li img {  opacity: 0.4;
 ul.thumbnails li img:hover {  opacity: 1;}
 #galeria { position: relative }
 .text {  position: relative  }
-.detail { margin:0;padding: 0;}
-.detail img {width: 100%}
+.detail { position: absolute;left: -26px;}
+p.bajo_foto { margin-top: 179px;}
 .column { width: 270px;margin: 0 6px;float: left;padding: 10px 5px;text-align: justify;}
 
 /****** MENU  **********/
 .clip { background: transparent url(/images/menu/clip.png) no-repeat 0 0; position: absolute; width:29px;height: 49px;top:-9px;left:-10px }
+.clip-llibreta { background: transparent url(/images/clip-paper.png) no-repeat 0 0; position: absolute; width:29px;height: 49px;top:-12px;left:-7px }
 ul.nav li { font-family: Verdana; font-weight:bold;background-repeat: no-repeat;
     padding: 20px 0 13px 45px;
     border-bottom: 3px solid white;
@@ -93,15 +99,15 @@ ul.nav-list a { padding: 3px 21px }
 #descripcio p { font-size: 13px;}
 #tarifes { position: relative; }
 #fons-tarifes { position: absolute; width: 80px;height: 107px;background: transparent url(/images/fons/euro.png) no-repeat 0% 0%;top: 50%; right: 10px;}
-#menu { position: relative;background-color: rgb(225,232,248)  }
+#menu { position: relative; }
+#menu-box { background-color: rgb(225,232,248) }
+#menu.fixed  #menu-box{ position: fixed;top:0; width: 300px}
 
-#menu.fixed { position: fixed;top:10px;left:790px}
-
-#thumbs { margin: -35px 0 0 39px;}
+#thumbs { margin: -27px 0 0 39px;}
 #footer { min-height:175px; background: transparent url(/images/fons/365.png) no-repeat 100% 100%;}
 section { margin: 0 0 50px 27px}
 
-.llibreta { padding:10px 0 10px 40px; background: transparent url(/images/fons/paper.png) repeat-y 0 0;
+.llibreta { padding:10px 0 10px 40px; background: transparent url(/images/fons/paper.png) repeat-y 0 0;position: relative;
 -moz-box-shadow: 3px 3px 10px #ccc; -webkit-box-shadow: 3px 3px 10px #ccc; box-shadow: 3px 3px 10px #ccc;}
 .llibreta li { margin: 5px 0; font-weight: bold;}
 .llibreta > .column { width:240px; margin: 0 10px }
