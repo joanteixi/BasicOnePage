@@ -110,7 +110,7 @@ $fotos = $finder->files()->in(__DIR__ . '/images/fotos');
 
         <div class='column'>
             <div class='detail'>
-                <img width='200px' src='/images/cadaques-prova.png'/>
+                <img src='/images/foto-casa.png'/>
             </div>
             <p>
                 <span class='portitxo'>Es Portitxó</span>, Casa-Dúplex, al costat de la platja. Un espai per somiar a
