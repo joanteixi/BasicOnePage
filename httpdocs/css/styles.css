@@ -10,7 +10,7 @@ ul li { list-style: none;}
 .idiomes ul { margin:0;padding:0}
 .idiomes ul li { float: left; min-width: 50px;list-style: none;text-align: center;height: 1px;}
 .idiomes ul li a { padding: 30px 0 0 0;display: block;background-repeat: no-repeat; background-position: 50% 2px; height: 0;}
-.idiomes ul li a:hover { background-position: 50% -26px;}
+.idiomes ul li a:hover { background-position: 50% -38px;}
 
 .idiomes ul li#ca a { background-image: url(/images/banderes/ca.png) }
 .idiomes ul li#es a { background-image: url(/images/banderes/es.png) }
