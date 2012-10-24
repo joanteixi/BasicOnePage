@@ -4,7 +4,8 @@ use Symfony\Component\Finder\Finder;
 require('vendor/autoload.php');
 
 $finder = new Finder;
-$fotos = $finder->files()->in(__DIR__ . '/images/fotos');
+$baseDir = '/images/fotos/cdqs/';
+$fotos = $finder->files()->depth(0)->in(__DIR__ . $baseDir);
 ?>
 
 <!DOCTYPE html>
@@ -57,16 +58,16 @@ $fotos = $finder->files()->in(__DIR__ . '/images/fotos');
     <div class='span8' id='galeria'>
         <ul id='slider'>
             <?php foreach ($fotos as $foto) : ?>
-            <li id='<?php echo $foto->getBasename('.jpg') ?>'><img class='primary-image'
-                                                                   src='/images/fotos/<?php echo $foto->getFilename()?>'/>
-            </li>
+                <li id='<?php echo $foto->getBasename('.jpg') ?>'>
+                    <img class='primary-image' src='<?php echo $baseDir . $foto->getFilename()?>'/>
+                </li>
             <?php endforeach ?>
         </ul>
         <ul class='thumbnails'>
             <?php foreach ($fotos as $foto) : ?>
             <li>
                 <a href='#<?php echo $foto->getBasename('.jpg')?>'>
-                    <img width='50px' height="50px" src='/images/fotos/<?php echo $foto->getFilename()?>'/>
+                    <img width='50px' height="50px" src='<?php echo $baseDir . $foto->getFilename()?>'/>
                 </a>
             </li>
             <?php endforeach ?>
@@ -87,7 +88,8 @@ $fotos = $finder->files()->in(__DIR__ . '/images/fotos');
             </ul>
         </div>
         <div id='booking'>
-            <h2>RESERVAR CASA <br/>&laquo;ES PORTITXO&raquo;</h2>
+            <h2><a href="mailto:info@barcelona-cadaques.cat" target='_blank'>RESERVAR CASA <br/>&laquo;ES PORTITXO&raquo;
+            </a></h2>
         </div>
     </div>
 
@@ -346,7 +348,9 @@ $fotos = $finder->files()->in(__DIR__ . '/images/fotos');
     $(function () {
 
         pattern = "<img class='contorn' src='/images/contorn-fotos.png'/>";
+        patternPrint = "<a class='print' href='#print'><img class='print' src='/images/fons/imprimir.png' /></a>";
         $('#slider').find('img').before(pattern);
+        $('#slider').find('img.primary-image').before(patternPrint);
 
         $('#slider').anythingSlider({
             buildArrows:false,
@@ -359,6 +363,10 @@ $fotos = $finder->files()->in(__DIR__ . '/images/fotos');
         $('.thumbnails a').live('click', function (ev) {
             ev.preventDefault();
             $('#slider').anythingSlider($(this).attr('href'));
+        })
+
+        $('.print').live('click', function() {
+            window.location = $('li.activePage').find('img.primary-image').attr('src');
         })
 
     })
