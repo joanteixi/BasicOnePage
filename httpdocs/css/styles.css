@@ -91,11 +91,39 @@ ul.nav li.active a:hover { background: none;color: #D92E12 }
 ul.nav li a:hover { background: none;color: #D92E12 }
 ul.nav-list a { padding: 3px 21px }
 #esportitxo_link { background-image: url(/images/menu/esportitxo.png);}
-#comarribar_link { background-image: url(/images/menu/pdf.png);}
+#comarribar_link { background-image: url(/images/menu/google.png);}
 #tarifes_link { background-image: url(/images/menu/euro.png);}
 #condicions_link { background-image: url(/images/menu/condicions.png);}
 #serveis_link { background-image:  url(/images/menu/serveis.png);}
 #mascotes_link { background-image:  url(/images/menu/mascotes.png);}
+#mapacadaques_link { background-image:  url(/images/menu/pdf.png);}
+
+#fons_mascotes { background: transparent url(/images/fons/mascotes-g.png) no-repeat 0% 0%;
+    width: 173px;
+    height: 163px;
+    top: 220px;
+    left: 355px;
+    position: absolute;
+}
+#fons_serveis {
+    background: transparent url(/images/fons/serveis-g.png) no-repeat 0% 0%;
+    width: 173px;
+    height: 163px;
+    top: 280px;
+    left: 106px;
+    position: absolute;
+}
+#fons_contractacio {
+    background: transparent url(/images/fons/condicions-g.png) no-repeat 0% 0%;
+    width: 173px;
+    height: 163px;
+    top: 240px;
+    left: 450px;
+    position: absolute;
+}
+
+
+
 
 #descripcio { background: rgb(225,232,248) url(/images/fons/silueta-cadaques.png) no-repeat 50% 100%;}
 #descripcio p { font-size: 13px;}
@@ -107,8 +135,8 @@ ul.nav-list a { padding: 3px 21px }
 
 #thumbs { margin: -27px 0 0 39px;}
 #footer { min-height:175px; background: transparent url(/images/fons/365.png) no-repeat 100% 100%;}
-section { margin: 0 0 50px 27px}
-
+section { margin: 0 0 50px 27px;position: relative}
+section#localitzacio { position: relative}
 .llibreta { padding:10px 0 10px 40px; background: transparent url(/images/fons/paper.png) repeat-y 0 0;position: relative;
 -moz-box-shadow: 3px 3px 10px #ccc; -webkit-box-shadow: 3px 3px 10px #ccc; box-shadow: 3px 3px 10px #ccc;}
 .llibreta li { margin: 5px 0; font-weight: bold;}
@@ -133,6 +161,7 @@ section.with365 { background: transparent url(/images/fons/365.png)}
 }
 
 .legal { text-align: center;}
+a.print_map { float: right;}
 /******************
   SET STYLING HERE
  ******************
