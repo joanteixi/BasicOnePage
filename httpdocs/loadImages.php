@@ -16,6 +16,7 @@ $response->prepare($request);
 $response->send();
 
 
+ob_start();
 ?>
 
 
@@ -38,4 +39,7 @@ $response->send();
 </ul>
 
 
+<?php
 
+ob_flush();
+?>

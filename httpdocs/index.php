@@ -399,7 +399,7 @@ $fotos = $finder->files()->depth(0)->in(__DIR__ . $baseDir);
     $(function () {
 
         pattern = "<img class='contorn' src='/images/contorn-fotos.png'/>";
-        patternPrint = "<a class='print' href='#print'><img class='print' src='/images/fons/imprimir.png' /></a>";
+        patternPrint = "<a class='print' href='#print'><img class='' src='/images/fons/imprimir.png' /></a>";
         $('#slider').find('img').before(pattern);
         $('#slider').find('img.primary-image').before(patternPrint);
 
@@ -414,6 +414,14 @@ $fotos = $finder->files()->depth(0)->in(__DIR__ . $baseDir);
         $('.thumbnails a').live('click', function (ev) {
             ev.preventDefault();
             $('#slider').anythingSlider($(this).attr('href'));
+        })
+
+        $('#menu-fotos a').click(function() {
+            $.get('loadImages.php', { dir: 'habitacions'}, function(data) {
+                console.log(data);
+            })
+
+            return false;
         })
 
         $('.print').live('click', function () {
