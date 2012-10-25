@@ -8,12 +8,9 @@ require('vendor/autoload.php');
 $request = Request::createFromGlobals();
 
 $finder = new Finder;
-$baseDir = '/images/fotos/habitacio/';
+$baseDir = sprintf('/images/fotos/%s/', $request->get('dir'));
 $fotos = $finder->files()->depth(0)->in(__DIR__ . $baseDir);
 
-$response = new Response();
-$response->prepare($request);
-$response->send();
 
 
 ob_start();
@@ -42,4 +39,8 @@ ob_start();
 <?php
 
 ob_flush();
+
+$response = new Response();
+$response->prepare($request);
+$response->send();
 ?>

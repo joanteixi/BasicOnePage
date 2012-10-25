@@ -96,14 +96,14 @@ $fotos = $finder->files()->depth(0)->in(__DIR__ . $baseDir);
 
     <div id='thumbs' class='span8'>
         <ul id='menu-fotos'>
-            <li><a href="">Casa</a></li>
-            <li><a href="">Cuina</a></li>
-            <li><a href="">Menjador</a></li>
-            <li><a href="">Terrassa</a></li>
-            <li><a href="">Habitacions</a></li>
-            <li><a href="">Banys</a></li>
-            <li><a href="">Planta</a></li>
-            <li><a href="">Cadaqués</a></li>
+            <li><a href="#casa">Casa</a></li>
+            <li><a href="#cuina">Cuina</a></li>
+            <li><a href="#menjador">Menjador</a></li>
+            <li><a href="#terrassa">Terrassa</a></li>
+            <li><a href="#habitacions">Habitacions</a></li>
+            <li><a href="#banys">Banys</a></li>
+            <li><a href="#planta">Planta</a></li>
+            <li><a href="#cadaques">Cadaqués</a></li>
         </ul>
     </div>
 </div>
@@ -353,11 +353,11 @@ $fotos = $finder->files()->depth(0)->in(__DIR__ . $baseDir);
     <a class='print_map'
        href='https://maps.google.com/maps?f=q&source=embed&hl=ca&geocode=&q=sant+antoni+1+cadaques&aq=&sll=37.0625,-95.677068&sspn=60.417788,91.494141&t=w&ie=UTF8&hq=&hnear=Carrer+de+Sant+Antoni,+1,+17488+Cadaqu%C3%A9s,+Girona,+Catalunya,+Espanya&z=18&vpsrc=0&ei=092HULZygv7yA_udgaAH&pw=2'><img
             src="/images/fons/imprimir.png"/></a>
-    <iframe width="597" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"
-            src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=ca&amp;geocode=&amp;q=sant+antoni+1+cadaques&amp;aq=&amp;sll=37.0625,-95.677068&amp;sspn=60.417788,91.494141&amp;t=h&amp;ie=UTF8&amp;hq=&amp;hnear=Carrer+de+Sant+Antoni,+1,+17488+Cadaqu%C3%A9s,+Girona,+Catalunya,+Espanya&amp;ll=42.289421,3.279521&amp;spn=0.001389,0.00228&amp;z=18&amp;output=embed"></iframe>
+    <iframe width="595" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"
+            src="https://maps.google.es/maps?q=Carrer+de+Sant+Antoni,+1,+Cadaqu%C3%A9s&amp;hl=ca&amp;ie=UTF8&amp;sll=41.392657,2.139299&amp;sspn=0.163807,0.363579&amp;oq=carrer+sant+antoni,+1,+Cadaqu%C3%A9s&amp;t=m&amp;hnear=Carrer+de+Sant+Antoni,+1,+17488+Cadaqu%C3%A9s,+Girona,+Catalunya&amp;hq=&amp;ll=42.290882,3.279462&amp;spn=0.005556,0.012767&amp;z=16&amp;iwloc=lyrftr:m,7401917289466317802,42.289546,3.279526&amp;output=embed"></iframe>
     <br/>
     <small><a
-            href="https://maps.google.com/maps?f=q&amp;source=embed&amp;hl=ca&amp;geocode=&amp;q=sant+antoni+1+cadaques&amp;aq=&amp;sll=37.0625,-95.677068&amp;sspn=60.417788,91.494141&amp;t=h&amp;ie=UTF8&amp;hq=&amp;hnear=Carrer+de+Sant+Antoni,+1,+17488+Cadaqu%C3%A9s,+Girona,+Catalunya,+Espanya&amp;ll=42.289421,3.279521&amp;spn=0.001389,0.00228&amp;z=18"
+            href="https://maps.google.es/maps?q=Carrer+de+Sant+Antoni,+1,+Cadaqu%C3%A9s&amp;hl=ca&amp;ie=UTF8&amp;sll=41.392657,2.139299&amp;sspn=0.163807,0.363579&amp;oq=carrer+sant+antoni,+1,+Cadaqu%C3%A9s&amp;t=m&amp;hnear=Carrer+de+Sant+Antoni,+1,+17488+Cadaqu%C3%A9s,+Girona,+Catalunya&amp;hq=&amp;ll=42.290882,3.279462&amp;spn=0.005556,0.012767&amp;z=16&amp;iwloc=lyrftr:m,7401917289466317802,42.289546,3.279526&amp;source=embed"
             style="color:#0000FF;text-align:left">Mostra un mapa més gran</a></small>
 </section>
 </div>
@@ -398,27 +398,33 @@ $fotos = $finder->files()->depth(0)->in(__DIR__ . $baseDir);
     //    $('#galeria').thumbnailer();
     $(function () {
 
-        pattern = "<img class='contorn' src='/images/contorn-fotos.png'/>";
-        patternPrint = "<a class='print' href='#print'><img class='' src='/images/fons/imprimir.png' /></a>";
-        $('#slider').find('img').before(pattern);
-        $('#slider').find('img.primary-image').before(patternPrint);
+        function initSlider() {
 
-        $('#slider').anythingSlider({
-            buildArrows:false,
-            buildNavigation:false,
-            buildStartStop:false,
-            hashTags:false,
-            autoPlay:true
-        });
+            pattern = "<img class='contorn' src='/images/contorn-fotos.png'/>";
+            patternPrint = "<a class='print' href='#print'><img class='' src='/images/fons/imprimir.png' /></a>";
+            $('#slider').find('img').before(pattern);
+            $('#slider').find('img.primary-image').before(patternPrint);
 
+            $('#slider').anythingSlider({
+                buildArrows:false,
+                buildNavigation:false,
+                buildStartStop:false,
+                hashTags:false,
+                autoPlay:true
+            });
+        }
+
+        initSlider();
         $('.thumbnails a').live('click', function (ev) {
             ev.preventDefault();
             $('#slider').anythingSlider($(this).attr('href'));
         })
 
-        $('#menu-fotos a').click(function() {
-            $.get('loadImages.php', { dir: 'habitacions'}, function(data) {
-                console.log(data);
+        $('#menu-fotos a').click(function () {
+            $.get('loadImages.php', { dir:$(this).attr('href') }, function (data) {
+                $('#galeria').html(data);
+                initSlider();
+
             })
 
             return false;
