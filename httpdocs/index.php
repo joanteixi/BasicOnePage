@@ -100,10 +100,10 @@ $fotos = $finder->files()->depth(0)->in(__DIR__ . $baseDir);
             <li><a href="#cuina">Cuina</a></li>
             <li><a href="#menjador">Menjador</a></li>
             <li><a href="#terrassa">Terrassa</a></li>
-            <li><a href="#habitacions">Habitacions</a></li>
-            <li><a href="#banys">Banys</a></li>
+            <li><a href="#habitacio">Habitacions</a></li>
+            <li><a href="#wc">Banys</a></li>
             <li><a href="#planta">Planta</a></li>
-            <li><a href="#cadaques">Cadaqués</a></li>
+            <li><a href="#cdqs">Cadaqués</a></li>
         </ul>
     </div>
 </div>

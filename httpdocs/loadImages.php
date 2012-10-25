@@ -8,7 +8,7 @@ require('vendor/autoload.php');
 $request = Request::createFromGlobals();
 
 $finder = new Finder;
-$baseDir = sprintf('/images/fotos/%s/', $request->get('dir'));
+$baseDir = sprintf('/images/fotos/%s/', substr($request->get('dir'), 1));
 $fotos = $finder->files()->depth(0)->in(__DIR__ . $baseDir);
 
 
