@@ -1,0 +1,20 @@
+body { position: relative;width: 960px; margin: 0 auto}
+ul { list-style: none}
+.home-estacions { position: absolute; top:0; right:0; list-style: none}
+.center { text-align: center; padding-top: 70px}
+.idiomes { margin-bottom: 45px;}
+.idiomes ul { margin:0;padding:0}
+.idiomes ul li { min-width: 50px;
+    list-style: none;
+    text-align: center;
+    height: 1px;
+    display: inline-block;}
+.idiomes ul li a { padding: 30px 0 0 0;display: block;background-repeat: no-repeat; background-position: 50% 2px; height: 0;}
+.idiomes ul li a:hover { background-position: 50% -38px;}
+
+.idiomes ul li#ca a { background-image: url(/images/banderes/ca.png) }
+.idiomes ul li#es a { background-image: url(/images/banderes/es.png) }
+.idiomes ul li#en a { background-image: url(/images/banderes/en.png) }
+.idiomes ul li#fr a { background-image: url(/images/banderes/fr.png) }
+
+footer { color: #0050d0;padding-top: 47px;font-size:12px; text-align: center;background: #fff url(/images/fons/365.png) no-repeat 0 0; height: 112px}

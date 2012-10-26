@@ -1,5 +1,5 @@
 <?php
-require(__DIR__.'/../vendor/autoload.php');
+require(__DIR__ . '/../vendor/autoload.php');
 
 use Symfony\Component\Finder\Finder;
 use Symfony\Component\Translation\Translator;
@@ -40,28 +40,20 @@ $fotos = $finder->files()->depth(0)->in(__DIR__ . $baseDir);
 <div class='row' id='top'>
     <div class='span4 idiomes'>
         <ul>
-            <li id='ca'><a href=''><?php echo $t->trans("idioma.cat")?>
-            </a></li>
-            <li id='en'><a href=""><?php echo $t->trans("idioma.eng")?>
-            </a></li>
-            <li id='es'><a href=""><?php echo $t->trans("idioma.esp")?>
-            </a></li>
-            <li id='fr'><a href=""><?php echo $t->trans("idioma.fra")?>
-            </a></li>
+            <li id='ca'><a href=''><?php echo $t->trans("idioma.cat")?></a></li>
+            <li id='en'><a href=""><?php echo $t->trans("idioma.eng")?></a></li>
+            <li id='es'><a href=""><?php echo $t->trans("idioma.esp")?></a></li>
+            <li id='fr'><a href=""><?php echo $t->trans("idioma.fra")?></a></li>
         </ul>
     </div>
 
     <div class='span5 offset3 estacions'>
         <p><?php echo $t->trans("h1.cadaques_vols_veure")?></p>
         <ul>
-            <li id='primavera'><a href=""><?php echo $t->trans("estacions.PRIMAVERA")?>
-            </a></li>
-            <li id='estiu'><a href=""><?php echo $t->trans("estacions.ESTIU")?>
-            </a></li>
-            <li id='tardor'><a href=""><?php echo $t->trans("estacions.TARDOR")?>
-            </a></li>
-            <li id='hivern'><a href=""><?php echo $t->trans("estacions.HIVERN")?>
-            </a></li>
+            <li ><a id='primavera' href="#"><?php echo $t->trans("estacions.PRIMAVERA")?></a></li>
+            <li ><a id='estiu' href="#"><?php echo $t->trans("estacions.ESTIU")?></a></li>
+            <li ><a id='tardor' href="#"><?php echo $t->trans("estacions.TARDOR")?></a></li>
+            <li ><a id='hivern'href="#"><?php echo $t->trans("estacions.HIVERN")?></a></li>
         </ul>
     </div>
 </div>
@@ -267,6 +259,15 @@ $fotos = $finder->files()->depth(0)->in(__DIR__ . $baseDir);
 <script type="text/javascript" src="/js/scrollto.js"></script>
 
 <script type="text/javascript">
+
+    function changeEstacio(estacio) {
+        $('body').attr('class', '').addClass(estacio);
+//        $.get('loadImages.php', { estacio: estacio, dir:'#cdqs' }, function (data) {
+//            $('#galeria').html(data);
+//            initSlider();
+//        });
+    }
+
     $(function () {
 
         function initSlider() {
@@ -331,13 +332,9 @@ $fotos = $finder->files()->depth(0)->in(__DIR__ . $baseDir);
             window.location = $(this).find('a').attr('href');
         });
 
-        $('#hivern').click(function (ev) {
-            ev.preventDefault();
-            $('body').attr('class', '').addClass('hivern');
-            $.get('loadImages.php', { estacio:$('body').attr('class'), dir:'#cdqs' }, function (data) {
-                $('#galeria').html(data);
-                initSlider();
-            });
+        $('.estacions a').click(function (ev) {
+            ev.preventDefault;
+            changeEstacio($(this).attr('id'));
         })
     })
 

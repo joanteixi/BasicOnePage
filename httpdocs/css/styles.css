@@ -1,7 +1,9 @@
 body { background-color: #ced9f3;}
-
+body.home { background-color: #fff;}
 body.estiu .container { background: white url(/images/estacions/estiu-gran.png) no-repeat 50% 20px;}
 body.hivern .container { background: white url(/images/estacions/hivern-gran.png) no-repeat 50% 20px;}
+body.tardor .container { background: white url(/images/estacions/tardor-gran.png) no-repeat 50% 20px;}
+body.primavera .container { background: white url(/images/estacions/primavera-gran.png) no-repeat 50% 20px;}
 .detail img { float: left; }
 #top { margin-bottom: 40px;}
 ul li { list-style: none;}
@@ -26,10 +28,10 @@ ul li { list-style: none;}
 .estacions ul { margin: 10px 0 0 73px}
 .estacions ul li { float: left; list-style: none;text-align: center;height: 1px;}
 .estacions ul li a { font-size:0.8em; display: block;padding: 0 0 40px 0; width:73px; background-repeat: no-repeat;background-position: 50% 0;}
-.estacions ul li#estiu a { background-image: url(/images/estacions/estiu.png)}
-.estacions ul li#primavera a { background-image: url(/images/estacions/primavera.png)}
-.estacions ul li#hivern a { background-image: url(/images/estacions/hivern.png)}
-.estacions ul li#tardor a { background-image: url(/images/estacions/tardor.png)}
+.estacions ul li a#estiu  { background-image: url(/images/estacions/estiu.png)}
+.estacions ul li a#primavera  { background-image: url(/images/estacions/primavera.png)}
+.estacions ul li a#hivern  { background-image: url(/images/estacions/hivern.png)}
+.estacions ul li a#tardor  { background-image: url(/images/estacions/tardor.png)}
 
 
 .head h1 { letter-spacing:2px;color: #0050D0; font-size:14px;  background: transparent url(/images/logo-esportitxo.png) no-repeat 20px 0;padding:65px 0 0 77px;margin:0}
