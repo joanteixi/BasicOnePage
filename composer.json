@@ -1,0 +1,9 @@
+{
+    "require": {
+        "symfony/finder": "2.1.*",
+        "symfony/http-foundation": "master-dev",
+        "symfony/translation": "master-dev",
+        "symfony/yaml": "master-dev",
+        "symfony/config": "master-dev"
+    }
+}

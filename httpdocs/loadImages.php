@@ -3,12 +3,11 @@
 use Symfony\Component\Finder\Finder;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\Response;
-require('vendor/autoload.php');
+require(__DIR__.'/../vendor/autoload.php');
 
 $request = Request::createFromGlobals();
-
 $finder = new Finder;
-$baseDir = sprintf('/images/fotos/%s/', substr($request->get('dir'), 1));
+$baseDir = sprintf('/images/fotos/%s/%s/', $request->get('estacio', 'estiu'), substr($request->get('dir'), 1));
 $fotos = $finder->files()->depth(0)->in(__DIR__ . $baseDir);
 
 

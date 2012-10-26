@@ -1,6 +1,0 @@
-{
-    "require": {
-        "symfony/finder": "2.1.*",
-        "symfony/http-foundation": "master-dev"
-    }
-}
