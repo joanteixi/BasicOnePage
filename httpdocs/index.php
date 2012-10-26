@@ -1,15 +1,22 @@
 <?php
+
+
 require(__DIR__ . '/../vendor/autoload.php');
 
 use Symfony\Component\Finder\Finder;
 use Symfony\Component\Translation\Translator;
 use Symfony\Component\Translation\MessageSelector;
 use Symfony\Component\Translation\Loader\YamlFileLoader;
+use Symfony\Component\HttpFoundation\Request;
 
-$t = new Translator('ca', new MessageSelector());
+$request = Request::createFromGlobals();
+$locale = $request->get('locale', 'ca');
+
+$t = new Translator($locale, new MessageSelector());
 $t->setFallbackLocale('ca');
 $t->addLoader('yml', new YamlFileLoader());
-$t->addResource('yml', __DIR__ . '/../translations/ca.yml', 'ca');
+$locale_path = sprintf(__DIR__ . '/../translations/%s.yml', $locale);
+$t->addResource('yml', $locale_path, $locale);
 
 
 $estacioActual = 'estiu';
