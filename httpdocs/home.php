@@ -14,10 +14,10 @@
 </head>
 <body class='home'>
 <ul class='home-estacions'>
-    <li><img src="/images/estacions/primavera-gran.png"/></li>
-    <li><img src="/images/estacions/estiu-gran.png"/></li>
-    <li><img src="/images/estacions/hivern-gran.png"/></li>
-    <li><img src="/images/estacions/tardor-gran.png"/></li>
+    <li><img src="/images/home/primavera.png"/></li>
+    <li><img src="/images/home/estiu.png"/></li>
+    <li><img src="/images/home/hivern.png"/></li>
+    <li><img src="/images/home/tardor.png"/></li>
 </ul>
 <div class='center'>
 
