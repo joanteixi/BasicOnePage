@@ -1,7 +1,7 @@
-body { position: relative;width: 900px; margin: 0 auto}
+body { position: relative;width: 900px; margin: 0 auto; background-color: #ced9f3}
 ul { list-style: none}
 .home-estacions { position: absolute; top:0; right:57px; list-style: none}
-.center { text-align: center; padding-top: 70px}
+.center { background-color: white;text-align: center; padding-top: 70px}
 .idiomes { margin-bottom: 45px;}
 .idiomes ul { margin:0;padding:0}
 .idiomes ul li { min-width: 50px;
@@ -17,4 +17,4 @@ ul { list-style: none}
 .idiomes ul li#en a { background-image: url(/images/banderes/en.png) }
 .idiomes ul li#fr a { background-image: url(/images/banderes/fr.png) }
 
-footer { color: #0050d0;padding-top: 47px;font-size:12px; text-align: center;background: #fff url(/images/fons/365.png) no-repeat 0 0; height: 112px}
+footer { color: #0050d0;padding-top: 90px;font-size:12px; text-align: center;background: #fff url(/images/fons/365.png) no-repeat 0 45px; height: 80px;margin-left: 13px}

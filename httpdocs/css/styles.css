@@ -22,12 +22,11 @@ ul li { list-style: none;}
 
 
 /*** ESTACIONS ****/
-.estacions { background: transparent url(/images/estacions/pastilla-estacions.png) no-repeat 73px 0;}
 .estacions ul { margin:0;padding:0}
 .estacions p { margin: 4px 0 0 85px; color: white;font-size: 19px;font-family: Garamond, serif;letter-spacing: 2px;}
-.estacions ul { margin: 10px 0 0 73px}
+.estacions ul { margin: 0px 0 0 73px}
 .estacions ul li { float: left; list-style: none;text-align: center;height: 1px;}
-.estacions ul li a { font-size:0.8em; display: block;padding: 0 0 40px 0; width:73px; background-repeat: no-repeat;background-position: 50% 0;}
+.estacions ul li a { font-size:0.7em; display: block;padding: 29px 0 40px 0; width:73px; background-repeat: no-repeat;background-position: 50% -12px;}
 .estacions ul li a#estiu  { background-image: url(/images/estacions/estiu.png)}
 .estacions ul li a#primavera  { background-image: url(/images/estacions/primavera.png)}
 .estacions ul li a#hivern  { background-image: url(/images/estacions/hivern.png)}
@@ -64,16 +63,17 @@ ul#menu-fotos li a {color: #0050d0}
 ul.thumbnails { list-style: none;
     position: absolute;
     bottom: 30px;
-    left: 65px;
+    left: 55px;
     z-index: 50;
 }
 ul.thumbnails li { margin: 0 2px; padding: 0; display: inline}
-ul.thumbnails li img {  opacity: 0.4;
+ul.thumbnails li img {  opacity: 0.7;
     -webkit-transition: opacity 500ms;
     -moz-transition: opacity 500,s;
     -o-transition: opacity 500ms;
     -ms-transition: opacity 500ms;
-    transition: opacity 500ms;}
+    transition: opacity 500ms;
+    border: 1px solid #fff }
 ul.thumbnails li img:hover {  opacity: 1;}
 #galeria { position: relative }
 .text {  position: relative  }
@@ -102,6 +102,8 @@ ul.nav-list a { padding: 3px 21px }
 #serveis_link { background-image:  url(/images/menu/serveis.png);}
 #mascotes_link { background-image:  url(/images/menu/mascotes.png);}
 #mapacadaques_link { background-image:  url(/images/menu/pdf.png);}
+#imprimirweb_link { background-image:  url(/images/menu/imprimir.png);}
+#enviarweb_link { background-image:  url(/images/menu/www.png);}
 
 #fons_mascotes { background: transparent url(/images/fons/mascotes-g.png) no-repeat 0% 0%;
     width: 173px;
@@ -442,4 +444,17 @@ a.print_map { float: right;margin-top: -33px}
 
 .panel { position: relative;}
 .contorn { position: absolute;top:0;left: 0}
-.print { position: absolute;top:20px; left: 530px}
+.print:hover {
+    color: #ccc;
+    text-decoration: none;
+}
+.print {position: absolute;
+    top: 20px;
+    left: 514px;
+    color: white;
+    background-color: #0050D0;
+    border: 1px solid white;
+    padding: 4px;
+    text-transform: uppercase;
+    font-size: 0.7em; }
+

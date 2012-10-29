@@ -55,7 +55,6 @@ $fotos = $finder->files()->depth(0)->in(__DIR__ . $baseDir);
     </div>
 
     <div class='span5 offset3 estacions'>
-        <p><?php echo $t->trans("h1.cadaques_vols_veure")?></p>
         <ul>
             <li ><a id='primavera' href="#"><?php echo $t->trans("estacions.PRIMAVERA")?></a></li>
             <li ><a id='estiu' href="#"><?php echo $t->trans("estacions.ESTIU")?></a></li>
@@ -108,9 +107,14 @@ $fotos = $finder->files()->depth(0)->in(__DIR__ . $baseDir);
             </ul>
         </div>
         <div id='booking'>
-            <h2><a href="mailto:info@barcelona-cadaques.cat" target='_blank'><?php echo $t->trans("reservar")?>
+            <h2><a data-toggle="modal" href="#emailModal" target='_blank'><?php echo $t->trans("reservar")?></a></h2>
 
-            </a></h2>
+            <div id='emailModal' class="modal hide fade">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <h3><a target='_blank' href='mailto:info@barcelona-cadaques.cat'>info@barcelona-cadaques.cat</a></h3>
+                </div>
+            </div>
         </div>
     </div>
 
@@ -214,7 +218,7 @@ $fotos = $finder->files()->depth(0)->in(__DIR__ . $baseDir);
             <h2><?php echo $t->trans("localitzacio.titol")?></h2>
             <a class='print_map'
                href='https://maps.google.com/maps?f=q&source=embed&hl=ca&geocode=&q=sant+antoni+1+cadaques&aq=&sll=37.0625,-95.677068&sspn=60.417788,91.494141&t=w&ie=UTF8&hq=&hnear=Carrer+de+Sant+Antoni,+1,+17488+Cadaqu%C3%A9s,+Girona,+Catalunya,+Espanya&z=18&vpsrc=0&ei=092HULZygv7yA_udgaAH&pw=2'><img
-                    src="/images/fons/imprimir.png"/></a>
+                    src="/images/fons/imprimir.png"/>Imprimir</a>
             <iframe width="595" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"
                     src="https://maps.google.es/maps?q=Carrer+de+Sant+Antoni,+1,+Cadaqu%C3%A9s&amp;hl=ca&amp;ie=UTF8&amp;sll=41.392657,2.139299&amp;sspn=0.163807,0.363579&amp;oq=carrer+sant+antoni,+1,+Cadaqu%C3%A9s&amp;t=m&amp;hnear=Carrer+de+Sant+Antoni,+1,+17488+Cadaqu%C3%A9s,+Girona,+Catalunya&amp;hq=&amp;ll=42.290882,3.279462&amp;spn=0.005556,0.012767&amp;z=16&amp;iwloc=lyrftr:m,7401917289466317802,42.289546,3.279526&amp;output=embed"></iframe>
             <br/>
@@ -242,9 +246,12 @@ $fotos = $finder->files()->depth(0)->in(__DIR__ . $baseDir);
                 </a></li>
                 <li id='comarribar_link'><a href="#localitzacio"><?php echo $t->trans("menu.localitzacio")?>
                 </a></li>
-                <li id='mapacadaques_link'><a target='_blank'
+                <li class='open' id='mapacadaques_link'><a target='_blank'
                                               href="/pdf/mapa-cadaques.pdf"><?php echo $t->trans("mapa_cadaques")?>
                 </a></li>
+
+                <li class='open' id="imprimirweb_link"><a href='#' onclick='javascript:print()'><?php echo $t->trans("menu.imprimir")?></a></li>
+                <li class='open' id="enviarweb_link"><a href='mailto:' ><?php echo $t->trans("menu.enviarweb")?></a></li>
             </ul>
         </div>
 
@@ -279,7 +286,7 @@ $fotos = $finder->files()->depth(0)->in(__DIR__ . $baseDir);
 
         function initSlider() {
             pattern = "<img class='contorn' src='/images/contorn-fotos.png'/>";
-            patternPrint = "<a class='print' href='#print'><img class='' src='/images/fons/imprimir.png' /></a>";
+            patternPrint = "<a class='print' href='#print'>imprimir</a>";
             $('#slider').find('img').before(pattern);
             $('#slider').find('img.primary-image').before(patternPrint);
 
@@ -309,7 +316,7 @@ $fotos = $finder->files()->depth(0)->in(__DIR__ . $baseDir);
         })
 
         $('.print').live('click', function () {
-            window.location = $('li.activePage').find('img.primary-image').attr('src');
+            window.location = 'viewImage.php?src='+$('li.activePage').find('img.primary-image').attr('src');
         })
 
 
@@ -335,7 +342,7 @@ $fotos = $finder->files()->depth(0)->in(__DIR__ . $baseDir);
             $(window).scrollTo($(this).attr('href'), 800);
         })
 
-        $('#mapacadaques_link').click(function () {
+        $('#mapacadaques_link, #enviarweb_link').click(function () {
             window.location = $(this).find('a').attr('href');
         });
 

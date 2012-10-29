@@ -130,7 +130,7 @@ tarifes:
                 </tr>
                 <tr>
 
-                    <td>Estades llagues d'octubre a maig:</td>
+                    <td>Estades llargues d'octubre a maig:</td>
                     <td>1.550 euros/mes (*)<br/>
                         <span class='nota'>(*) per estades superiors a 3 mesos</span></td>
                 </tr>
@@ -229,14 +229,15 @@ mascotes.col2: |
 localitzacio.titol: <span class='destacat'>Localització</span> | Es Portitxó
 google.mesgran: Mostra un mapa més gran
 
-esportitxo: &laquo;Es portitxó&raquo;
-tarifes.menu: Tarifes - 2012
-condicions.menu: Condicions de contractació
+esportitxo: "&laquo;Es portitxó&raquo;"
+menu.tarifes: Tarifes - 2012
+menu.condicions: Condicions de contractació
 menu.serveis: Serveis opcionals
 menu.mascotes: Mascotes
 menu.localitzacio: Localització
 menu.mapa_cadaques: Mapa Cadaqués
-
+menu.imprimir: Imprimir web
+menu.enviarweb: Enviar web a un amic
 copyright: © esportitxo.cat | Tots els drets reservats | Avís legal | Disseny web
 
 

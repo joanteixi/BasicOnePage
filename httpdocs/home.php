@@ -21,7 +21,7 @@
 </ul>
 <div class='center'>
 
-<h1><img src='/images/logo-esportitxo.png'></h1>
+    <h1><img src='/images/logo-esportitxo.png'></h1>
 
     <img src='/images/foto-home.png'/>
 
@@ -35,11 +35,9 @@
     </div>
 
 
-</div>
-
-<footer>
-    CASA-DÚPLEX A CADAQUÉS | HOUSE-DUPLEX IN CADAQUÉS | CASA-DÚPLEX EN CADAQUÉS | MAISON DUPLEX À CADAQUÉS
-</footer>
+    <footer>
+        CASA-DÚPLEX A CADAQUÉS | HOUSE-DUPLEX IN CADAQUÉS | CASA-DÚPLEX EN CADAQUÉS | MAISON DUPLEX À CADAQUÉS
+    </footer>
 
 </div>
 
