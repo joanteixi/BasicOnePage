@@ -16,8 +16,8 @@
 <ul class='home-estacions'>
     <li><img src="/images/home/primavera.png"/></li>
     <li><img src="/images/home/estiu.png"/></li>
-    <li><img src="/images/home/tardor.png"/></li>
-    <li><img src="/images/home/hivern.png"/></li>
+    <li id ='tardor'><img src="/images/home/tardor.png"/></li>
+    <li id='hivern'><img src="/images/home/hivern.png"/></li>
 </ul>
 <div class='center'>
 

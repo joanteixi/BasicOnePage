@@ -21,9 +21,9 @@ calendari:
 reservar: RESERVAR CASA <br/>&laquo;ES PORTITXO&raquo;
 
 menu_fotos:
-  casa: Casa
   cuina: Cuina
   menjador: Menjador
+  salo: Saló
   terrassa: Terrassa
   habitacions: Habitacions
   banys: Banys

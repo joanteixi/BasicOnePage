@@ -17,4 +17,7 @@ ul { list-style: none}
 .idiomes ul li#en a { background-image: url(/images/banderes/en.png) }
 .idiomes ul li#fr a { background-image: url(/images/banderes/fr.png) }
 
-footer { color: #0050d0;padding-top: 90px;font-size:12px; text-align: center;background: #fff url(/images/fons/365.png) no-repeat 0 45px; height: 80px;margin-left: 13px}
+footer { color: #0050d0;padding-top: 94px;font-size:12px; text-align: center;background: #fff url(/images/fons/365.png) no-repeat 0 0px; height: 80px;margin-left: 13px}
+
+#hivern { margin-top: -50px;}
+#tardor { margin-top: -20px; }

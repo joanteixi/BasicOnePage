@@ -18,8 +18,18 @@ $t->addLoader('yml', new YamlFileLoader());
 $locale_path = sprintf(__DIR__ . '/../translations/%s.yml', $locale);
 $t->addResource('yml', $locale_path, $locale);
 
+$today = new DateTime();
 
-$estacioActual = 'estiu';
+if ($today > DateTime::createFromFormat('d/m', '21/09') && $today <= DateTime::createFromFormat('d/m', '21/12')) {
+    $estacioActual = 'tardor';
+} elseif ($today > DateTime::createFromFormat('d/m', '21/12') && $today <= DateTime::createFromFormat('d/m', '21/03')) {
+    $estacioActual = 'hivern';
+} elseif ($today > DateTime::createFromFormat('d/m', '21/03') && $today <= DateTime::createFromFormat('d/m', '21/06')) {
+    $estacioActual = 'primavera';
+} else {
+    $estacioActual = 'estiu';
+}
+
 $finder = new Finder;
 $baseDir = sprintf('/images/fotos/%s/cdqs/', $estacioActual);
 $fotos = $finder->files()->depth(0)->in(__DIR__ . $baseDir);
@@ -41,7 +51,7 @@ $fotos = $finder->files()->depth(0)->in(__DIR__ . $baseDir);
     <![endif]-->
 
 </head>
-<body class='estiu' data-spy="scroll" data-target=".bs-docs-sidebar">
+<body class='<?php echo $estacioActual?>' data-spy="scroll" data-target=".bs-docs-sidebar">
 <div class='container'>
 
 <div class='row' id='top'>
@@ -56,10 +66,10 @@ $fotos = $finder->files()->depth(0)->in(__DIR__ . $baseDir);
 
     <div class='span5 offset3 estacions'>
         <ul>
-            <li ><a id='primavera' href="#"><?php echo $t->trans("estacions.PRIMAVERA")?></a></li>
-            <li ><a id='estiu' href="#"><?php echo $t->trans("estacions.ESTIU")?></a></li>
-            <li ><a id='tardor' href="#"><?php echo $t->trans("estacions.TARDOR")?></a></li>
-            <li ><a id='hivern'href="#"><?php echo $t->trans("estacions.HIVERN")?></a></li>
+            <li><a id='primavera' href="#"><?php echo $t->trans("estacions.PRIMAVERA")?></a></li>
+            <li><a id='estiu' href="#"><?php echo $t->trans("estacions.ESTIU")?></a></li>
+            <li><a id='tardor' href="#"><?php echo $t->trans("estacions.TARDOR")?></a></li>
+            <li><a id='hivern' href="#"><?php echo $t->trans("estacions.HIVERN")?></a></li>
         </ul>
     </div>
 </div>
@@ -98,7 +108,7 @@ $fotos = $finder->files()->depth(0)->in(__DIR__ . $baseDir);
         <div id='calendar'>
             <h2><?php echo $t->trans("h2.disponibilitat")?>
             </h2>
-            <iframe src="https://www.google.com/calendar/embed?showTitle=0&amp;showPrint=0&amp;showTabs=0&amp;showCalendars=0&amp;showTz=0&amp;height=280&amp;wkst=2&amp;bgcolor=%23FFFFFF&amp;src=maristesbadalona.com_dkkv66gv3k180t0uil9a05l7b0%40group.calendar.google.com&amp;color=%232F6309&amp;ctz=Europe%2FMadrid"
+            <iframe src="https://www.google.com/calendar/embed?showTitle=0&amp;showTabs=0&amp;showCalendars=0&amp;showTz=0&amp;height=260&amp;wkst=2&amp;hl=ca&amp;bgcolor=%23FFFFFF&amp;src=esportitxo%40gmail.com&amp;color=%232952A3&amp;ctz=Europe%2FMadrid"
                     style=" border-width:0 " width="250" height="260" frameborder="0" scrolling="no"></iframe>
             <ul class='legend'>
                 <li id='avaliable'><?php echo $t->trans("calendari.avaliable")?></li>
@@ -112,7 +122,8 @@ $fotos = $finder->files()->depth(0)->in(__DIR__ . $baseDir);
             <div id='emailModal' class="modal hide fade">
                 <div class="modal-header">
                     <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                    <h3><a target='_blank' href='mailto:info@barcelona-cadaques.cat'>info@barcelona-cadaques.cat</a></h3>
+                    <h3><a target='_blank' href='mailto:info@barcelona-cadaques.cat'>info@barcelona-cadaques.cat</a>
+                    </h3>
                 </div>
             </div>
         </div>
@@ -121,9 +132,9 @@ $fotos = $finder->files()->depth(0)->in(__DIR__ . $baseDir);
 
     <div id='thumbs' class='span8'>
         <ul id='menu-fotos'>
-            <li><a href="#casa"><?php echo $t->trans("menu_fotos.casa")?></a></li>
             <li><a href="#cuina"><?php echo $t->trans("menu_fotos.cuina")?></a></li>
             <li><a href="#menjador"><?php echo $t->trans("menu_fotos.menjador")?></a></li>
+            <li><a href="#salo"><?php echo $t->trans("menu_fotos.salo")?></a></li>
             <li><a href="#terrassa"><?php echo $t->trans("menu_fotos.terrassa")?></a></li>
             <li><a href="#habitacio"><?php echo $t->trans("menu_fotos.habitacions")?></a></li>
             <li><a href="#wc"><?php echo $t->trans("menu_fotos.banys")?></a></li>
@@ -217,8 +228,7 @@ $fotos = $finder->files()->depth(0)->in(__DIR__ . $baseDir);
         <section id='localitzacio'>
             <h2><?php echo $t->trans("localitzacio.titol")?></h2>
             <a class='print_map'
-               href='https://maps.google.com/maps?f=q&source=embed&hl=ca&geocode=&q=sant+antoni+1+cadaques&aq=&sll=37.0625,-95.677068&sspn=60.417788,91.494141&t=w&ie=UTF8&hq=&hnear=Carrer+de+Sant+Antoni,+1,+17488+Cadaqu%C3%A9s,+Girona,+Catalunya,+Espanya&z=18&vpsrc=0&ei=092HULZygv7yA_udgaAH&pw=2'><img
-                    src="/images/fons/imprimir.png"/>Imprimir</a>
+               href='https://maps.google.com/maps?f=q&source=embed&hl=ca&geocode=&q=sant+antoni+1+cadaques&aq=&sll=37.0625,-95.677068&sspn=60.417788,91.494141&t=w&ie=UTF8&hq=&hnear=Carrer+de+Sant+Antoni,+1,+17488+Cadaqu%C3%A9s,+Girona,+Catalunya,+Espanya&z=18&vpsrc=0&ei=092HULZygv7yA_udgaAH&pw=2'>Imprimir</a>
             <iframe width="595" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"
                     src="https://maps.google.es/maps?q=Carrer+de+Sant+Antoni,+1,+Cadaqu%C3%A9s&amp;hl=ca&amp;ie=UTF8&amp;sll=41.392657,2.139299&amp;sspn=0.163807,0.363579&amp;oq=carrer+sant+antoni,+1,+Cadaqu%C3%A9s&amp;t=m&amp;hnear=Carrer+de+Sant+Antoni,+1,+17488+Cadaqu%C3%A9s,+Girona,+Catalunya&amp;hq=&amp;ll=42.290882,3.279462&amp;spn=0.005556,0.012767&amp;z=16&amp;iwloc=lyrftr:m,7401917289466317802,42.289546,3.279526&amp;output=embed"></iframe>
             <br/>
@@ -247,11 +257,13 @@ $fotos = $finder->files()->depth(0)->in(__DIR__ . $baseDir);
                 <li id='comarribar_link'><a href="#localitzacio"><?php echo $t->trans("menu.localitzacio")?>
                 </a></li>
                 <li class='open' id='mapacadaques_link'><a target='_blank'
-                                              href="/pdf/mapa-cadaques.pdf"><?php echo $t->trans("mapa_cadaques")?>
+                                                           href="/pdf/mapa-cadaques.pdf"><?php echo $t->trans("menu.mapa_cadaques")?>
                 </a></li>
 
-                <li class='open' id="imprimirweb_link"><a href='#' onclick='javascript:print()'><?php echo $t->trans("menu.imprimir")?></a></li>
-                <li class='open' id="enviarweb_link"><a href='mailto:' ><?php echo $t->trans("menu.enviarweb")?></a></li>
+                <li class='open' id="imprimirweb_link"><a href='#'
+                                                          onclick='javascript:print()'><?php echo $t->trans("menu.imprimir")?></a>
+                </li>
+                <li class='open' id="enviarweb_link"><a href='mailto:' target='_blank'><?php echo $t->trans("menu.enviarweb")?></a></li>
             </ul>
         </div>
 
@@ -286,7 +298,7 @@ $fotos = $finder->files()->depth(0)->in(__DIR__ . $baseDir);
 
         function initSlider() {
             pattern = "<img class='contorn' src='/images/contorn-fotos.png'/>";
-            patternPrint = "<a class='print' href='#print'>imprimir</a>";
+            patternPrint = "<a class='print' target='' href='#print'>imprimir</a>";
             $('#slider').find('img').before(pattern);
             $('#slider').find('img.primary-image').before(patternPrint);
 
@@ -316,7 +328,13 @@ $fotos = $finder->files()->depth(0)->in(__DIR__ . $baseDir);
         })
 
         $('.print').live('click', function () {
-            window.location = 'viewImage.php?src='+$('li.activePage').find('img.primary-image').attr('src');
+            src = $('li.activePage').find('img.primary-image').attr('src');
+            if (src == undefined) {
+                src = $('img.primary-image').attr('src');
+
+            }
+            window.location = 'viewImage.php?src=' + src;
+            return false;
         })
 
 
