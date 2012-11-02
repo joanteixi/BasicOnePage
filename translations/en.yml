@@ -5,239 +5,203 @@ idioma:
   fra: fra
 
 estacions:
-  ESTIU: ESTIU
-  TARDOR: TARDOR
-  HIVERN: HIVERN
-  PRIMAVERA: PRIMAVERA
+  ESTIU: SUMMER
+  TARDOR: AUTUMN
+  HIVERN: WINTER
+  PRIMAVERA: SPRING
 
 h1.cadaques_vols_veure: Quin Cadaqués vols veure?
-h1.titol: CASA-DÚPLEX A CADAQUÉS | LLOGUER AMB ENCANT
-h2.disponibilitat: DISPONIBILITAT
+h1.titol: DUPLEX-HOUSE TO CADAQUÉS | CHARM RENT
+h2.disponibilitat: AVAILABILITY
 calendari:
     avaliable: Avaliable
-    not-avaliable: Not avaliable
+    not-avaliable: Rented
     pending: Pending response
 
-reservar: RESERVAR CASA <br/>&laquo;ES PORTITXO&raquo;
+reservar: BOOK <br/>&laquo;ES PORTITXO&raquo;
 
 menu_fotos:
-  casa: Casa
-  cuina: Cuina
-  menjador: Menjador
-  terrassa: Terrassa
-  habitacions: Habitacions
-  banys: Banys
-  planta: Planta
+  cuina: Kitchen
+  menjador: Dining room
+  salo: Living
+  terrassa: Balcony
+  habitacions: Bedrooms
+  banys: Bathrooms
+  planta: Plan
   cadaques: Cadaqués
-
 descripcio:
     col1: |
         <p class='bajo_foto'>
-            <span class='portitxo'>Es Portitxó</span>, Casa-Dúplex, al costat de la platja. Un espai per somiar a
-            Cadaqués.
+            <span class='portitxo'>Es Portitxó</span>, Duplex-House, beside the beach. A place to dream in Cadaqués.
         </p>
 
-        <p>Es Portitxó es troba a només uns metres de la cala del mateix nom, a la platja gran de Cadaqués. És una
-            casa-dúplex amb accés directe des del carrer Sant Antoni, un dels carrers amb més encant de Cadaqués.
-            L’empedrat del terra, les buganvíl·lies en tots els seus colors i el blanc de les parets són la marca de
-            personalitat d’aquest racó del Cadaqués autèntic.
+        <p>Es Portitxó is just few meters from the cove of the same name, on the beach of Cadaqués. It is a duplex-house with direct access from the street Sant Antoni, one of the most charming streets of Cadaqués. The paving of land, flowers in all its colors and the white walls are the brand personality of this corner of authentic Cadaques.
         </p>
 
         <p>
-            Totalment equipat per a 11+2 persones (11 adults + 1 nen/nena + 1 bebé) amb total comoditat. El saló disposa
-            d’un gran sofà, i diversos mobles complementaris. A través d’un gran finestral el saló té accés directe a la
-            terrassa, amb vistes al mar i equipada amb mobiliari d’exterior i tendal parasol extensible.
+           Fully equipped for 11+2 people (11 adults + 1 child + 1 baby) in total comfort. The living room has a big sofa, and other complementary furniture and extendable awning for sun.
         </p>
 
         <p>
-            Es disposa igualment d’un aparell d’aire condicionat per a l’estiu i calefacció per a l’hivern. El saló té
-            llar de foc i una pantalla plana de TV amb capacitat per reproduir CD i DVD i amb TDT incorporada.
+           Through a large window, the room has direct access to the terrace with sea views and equipped with outdoor furniture. It also provides an apparatus for air conditioning in summer and heating in winter. The living room has a fireplace and a plasma TV with capacity to play CDs and DVDs and with TDT.
         </p>
 
     col2: |
         <p>
-                El menjador té diverses taules modulars amb les corresponents cadires, i la cuina, oberta, està totalment
-                equipada amb forn, rentavaixelles, frigorífic, congelador, microones, vitroceràmica, campana extractora i
-                tot el petit electrodomèstic i estris de cuina necessaris (torradora, espremedora, cassoles, paelles,
-                Nespresso, coberts, plats, gots, copes, etc). La cuina té accés directe a una galeria amb la
-                rentadora-assecadora, la caldera d’aigua calenta, el safareig i els estris de neteja domèstica.
+                The dining table has many modular tables with the corresponding chairs, and the kitchen is open, fully equipped with oven, dishwasher, freezer, oven, hood and all small electrical appliances and with the necessary utensils (toaster, juicer, pots, Nespresso, pans, cutlery, plates, cups, glasses, etc.). The kitchen also has direct access to a gallery with a washer-dryer, hot water boiler, laundry and household cleaning goods.
             </p>
 
             <p>
-                <span class='portitxo'>Es Portitxó</span> disposa de 2 banys: un de superior amb WC, rentamans, mirall i una
-                dutxa, i un al pis inferior
-                que disposa igualment de WC, rentamans, mirall, una banyera i bidet. En els dos casos, els banys estan
-                totalment equipats.
+                <span class='portitxo'>Es Portitxó</span> has 2 bathrooms: one in the upper floor with toilet, sink with mirror and a shower, and the other in the lower floor which also has toilet, sink with mirror, a bathtub and bidet. Both bathrooms are fully equipped.
             </p>
 
             <p>
-                <span class='portitxo'>Es Portitxó</span> té dues habitacions de grans dimensions amb armaris empotrats i
-                llum natural tot el dia.
-                Igualment, es disposa d’un llit petit per a nen/nena i d’un bressol per a bebé. Aquesta habitació té sortida
-                a una terrassa privada i sistema de ventilació propi.
+                <span class='portitxo'>Es Portitxó</span> has two large rooms with large built-in cupboards and natural light all day. Similarly, there is a small bed for boy / girl and a crib for baby. and has exit to a private terrace and own ventilation system.
             </p>
 
             <p>
-                <span class='portitxo'>Es Portitxó</span> té llum natural durant tot el dia, davant i darrere, i està
-                orientat al sud. La immillorable
-                ubicació dins de Cadaqués en una zona extraordinàriament tranquil·la i molt propera a la platja i al passeig
-                de Cadaqués fan de Es Portitxó un espai únic per a les vostres estàncies a Cadaqués.
+                <span class='portitxo'>Es Portitxó</span>has natural light throughout the day, front and rear, and is facing south. The best location in Cadaqués in a remarkably quiet place and very close to the beach and the promenade, makes Es Portitxó a unique space for your to stay in Cadaques.
 
             </p>
 
 tarifes:
-    titol: <span class='destacat'>Tarifes Es Portitxó</span> | Es Portitxó
+    titol: <span class='destacat'>Rates Es Portitxó</span> | Es Portitxó
     text: |
                 <tr>
-                    <td>Juny 1a quinzena:</td>
-                    <td>700 euros/setmana</td>
+                    <td>June 1st half:</td>
+                    <td>700 euros/week</td>
                 </tr>
                 <tr>
-                    <td>Juny 2a quinzena:</td>
-                    <td>950 euros/setmana</td>
+                    <td>2nd half June:</td>
+                    <td>950 euros/week</td>
                 </tr>
                 <tr>
-                    <td>Juliol:</td>
-                    <td>1.260 euros/setmana</td>
+                    <td>July:</td>
+                    <td>1.260 euros/week</td>
                 </tr>
                 <tr>
-                    <td>Agost:</td>
-                    <td>1.950 euros/setmana</td>
+                    <td>August:</td>
+                    <td>1.950 euros/week</td>
                 </tr>
                 <tr>
-                    <td>Setembre 1a quinzena:</td>
-                    <td>950 euros/setmana</td>
+                    <td>September 1st half:</td>
+                    <td>950 euros/week</td>
                 </tr>
                 <tr>
-                    <td>Setembre 2a quinzena:</td>
-                    <td>700 euros/setmana</td>
+                    <td>September 2nd half:</td>
+                    <td>700 euros/week</td>
                 </tr>
                 <tr>
-                    <td>Nadal (22/12 - 26/12):</td>
+                    <td>Christmas (22/12 - 26/12):</td>
                     <td>650 euros</td>
                 </tr>
                 <tr>
-                    <td>Cap d'Any (29/12 - 01/01):</td>
+                    <td>New Year (29/12 - 01/01):</td>
                     <td>750 euros</td>
                 </tr>
                 <tr>
-                    <td>Resta de l'any (octubre - maig):</td>
-                    <td>550 euros/setmana</td>
+                    <td>Rest of the year (October-May):</td>
+                    <td>550 euros/week</td>
                 </tr>
                 <tr>
-                    <td>Cap de setmana (octubre - maig):</td>
+                    <td>Weekend (October-May):</td>
                     <td>400 euros</td>
                 </tr>
                 <tr>
 
-                    <td>Estades llagues d'octubre a maig:</td>
-                    <td>1.550 euros/mes (*)<br/>
-                        <span class='nota'>(*) per estades superiors a 3 mesos</span></td>
+                    <td>Long stays from October to May:</td>
+                    <td>1.550 euros/month (*)<br/>
+                        <span class='nota'>(*) For stays longer than 3 months</span></td>
                 </tr>
 
-condicions.titol: <span class='destacat'>Condicions de contractació</span> | Es Portitxó
+condicions.titol: <span class='destacat'>Terms & conditions</span> | Es Portitxó
 condicions.text: |
         <ul>
-            <li>- L’entrada es farà puntualment a les 16:00h i la sortida es farà puntualment a les 11:00 h dels dies
-                acordats.
-            </li>
-            <li>- S’abonarà el 40 % del total al formalitzar la reserva i el 60 % restant, en efectiu, al lliurar les
-                claus.
-            </li>
-            <li>- Els consums d’electricitat i aigua són inclosos al preu del lloguer.</li>
-            <li>- Hi ha una fiança legal de 450 €, a retornar en lliurar les claus.</li>
+            <li>- The check-in will be at 16:00 pm and the check-out will be at 11:00 am the day agreed. </li>
+            <li>- 40% of the total must be paid to confirm your booking and the remaining 60% in cash, to hand in the keys. </li>
+            <li>- Consumption of electricity and water is included in the rental price.</li>
+            <li>- There is a security deposit of 450 €, to return at the check-out.</li>
         </ul>
 
-        <p>En els casos d’incompliment dels horaris d’entrada o de sortida s’aplicaran els següents recàrrecs:</p>
+        <p>In cases of incumpliment times of Check-in or Check-out apply as follows surcharges: </p>
         <ul>
 
-            <li>- Horari d’entrada entre les 16:00h i les 19:00h, recàrrec de 50 euros.</li>
-            <li>- Horari d’entrada entre les 19:00h i les 24:00h, recàrrec de 100 euros.</li>
+            <li>Check-in between 16:00 pm and 20:00 pm, 50 € surcharge. </li>
+            <li>Check-in between 20:00 pm and 24:00 pm, 100 € surcharge. </li>
 
         </ul>
-        <p>No s’accepten entrades en horari superior a les 24:00h.</p>
+        <p>Not accepted Check-in above schedule at 24:00 pm.</p>
         <ul>
 
-            <li>- Horari de sortida entre les 11:00h i les 13:00h, recàrrec de 50 euros.</li>
-            <li>- Horari de sortida entre les 08:00h i les 11:00h, recàrrec de 50 euros.</li>
+            <li>Check-out between 11:00 pm and 13:00 pm, 50 € surcharge. </li>
+            <li>Check-out between 08:00 pm and 11:00 pm, 50 € surcharge.</li>
         </ul>
-        <p>No s’accepten sortides en horari superior a les 13:00h.</p>
+        <p>Not accepted Check-out above schedule at 13:00 h. </p>
 
-serveis.titol: <span class='destacat'>Serveis</span> | Es Portitxó
+serveis.titol: <span class='destacat'>Optional services</span> | Es Portitxó
 serveis.col1: |
             <p>
-                <strong>Roba blanca:</strong><br/>
-                Cada joc individual inclou: roba llit, manta, tovallola gran i petita, per a cada llit: vànova, per a
-                cada bany: estora bany i paper higiènic.
-                <br/><strong>Preu: 10,00 euros/persona.</strong>
+                <strong>Linen:</strong><br/>
+                Every single set includes: bed linen, blanket, towel, large and small. For each bed: quilt. For each bathroom: bath mat and toilet paper.
+                <br/><strong>Price: 10,00 euros/person.</strong>
             </p>
 
             <p>
-                <strong>Neteja:</strong><br/>
-                Servei de neteja final “Es Portitxó” (interior, habitacions, terrasses, banys i cuina)
-                <br/><strong>Preu: 120,00 euros.</strong>
+                <strong>Cleaning:</strong><br/>
+                Cleaning service "Es Portitxó" (inside, rooms, terraces, bathrooms and kitchen)
+                <br/><strong>Price: 120,00 euros.</strong>
             </p>
 serveis.col2: |
               <p>
-                  <strong>En els casos d’incumpliment dels horaris d’entrada o de sortida s’aplicaran els següents
-                      recàrrecs:</strong>
+                  <strong>In cases of incumpliment times of Check-in or Check-out apply as follows surcharges: </strong>
               </p>
 
               <p>
-                  <i class='icon-chevron-right'></i> Horari d’entrada entre les 16:00h i les 20:00h, recàrrec de 50 euros.
-                  Horari d’entrada entre les 20:00h
-                  i les 24:00h, recàrrec de 100 euros.<br/>
-                  No s’accepten entrades en horari superior a les 24:00h.
+                  <i class='icon-chevron-right'></i> Check-in between 16:00 pm and 20:00 pm, 50 € surcharge.
+                  Check-in between 20:00 pm and 24:00 pm, 100 € surcharge. .<br/>
+                  Not accepted Check-in above schedule at 24:00 pm.
               </p>
 
               <p>
-                  <i class='icon-chevron-right'></i> Horari de sortida entre les 11:00h i les 13:00h, recàrrec de 50
-                  euros.<br/>
-                  No s’accepten sortides en horari superior a les 13:00h.
+                  <i class='icon-chevron-right'></i> Check-out between 11:00 pm and 13:00 pm, 50 € surcharge. <br/>
+                 Not accepted Check-out above schedule at 13:00 h.
               </p>
 
               <p>
-                  Durant l’estada a <span class='portitxo'>Es Portitxó</span> el client podrà sol·licitar directament
-                  qualsevol servei extra que
-                  necessiti i s’intentarà donar resposta, segons les possibilitats de cada moment. En aquest cas es podran
-                  facturar els costos de desplaçament, segons cada horari, així com els materials utilitzats.
+                  During his stay in <span class='portitxo'>Es Portitxó</span>  customer can directly request any extra service you need and we try to respond, according to the possibilities of each moment. In this case we can fees costs according to each schedule and the materials used.
               </p>
 
-mascotes.titol: <span class='destacat'>Mascotes</span> | Es Portitxó
+mascotes.titol: <span class='destacat'>Pets</span> | Es Portitxó
 
 mascotes.col1: |
- <p>Les mascotes són benvingudes a Es Portitxó. Les condicions especials de contractació són les
-                següents:</p>
+ <p>Pets are welcome at Es Portitxó. The special conditions of contract are:</p>
 
             <p>
-                1.- El preu per a cada animal domèstic és de 150 €.<br/>
-                2.- És obligatori contractar el servei de neteja final.</br/>
-                3.- La fiança es retornarà únicament per transferència bancària el dia següent a la finalització del
-                contracte.<br/>
-                4.- És obligatori que els clients portin roba per cobrir els sofàs o llits. No és permesa la seva
-                utilització per les mascotes sense protecció.<br/>
-                5.- És obligatori mantenir el respecte a la propietat. Les rascades a les portes, mobles o altres
-                desperfectes que pugui causar la mascota seran responsabilitat dels seus propietaris.</br/>
+                1.- The fee for each pet is 150 €.<br/>
+                2.- It's compulsory final cleaning service.</br/>
+                3.- The deposit will be refunded only by bank transfer the day after the end of the contract.<br/>
+                4.- It is mandatory that customers wearing clothes to cover the couches or beds. It's not permitted to use unprotected by pets.<br/>
+                5.- Required to maintain the respect of the property. The scratches on doors, furniture or other damage that may cause the pet will be the responsibility of the owner.</br/>
             </p>
 mascotes.col2: |
             <p>
-                6.- Cal extremar la cura de què la mascota estigui el màxim temps possible a l’exterior. Cal tenir en
-                compte que, per molt que es netegi a fons, pot haver-hi clients al·lergics als pels dels animals i convé
-                extremar les precaucions.
+                6.- Must extreme that your pet is as long as possible outside. Keep in mind that although it is cleaned thoroughly, there may be customers allergic by animals and should take precautions.
             </p>
 
-localitzacio.titol: <span class='destacat'>Localització</span> | Es Portitxó
-google.mesgran: Mostra un mapa més gran
+localitzacio.titol: <span class='destacat'>Location</span> | Es Portitxó
+google.mesgran: Show in largest map
 
-esportitxo: &laquo;Es portitxó&raquo;
-tarifes.menu: Tarifes - 2012
-condicions.menu: Condicions de contractació
-menu.serveis: Serveis opcionals
-menu.mascotes: Mascotes
-menu.localitzacio: Localització
-menu.mapa_cadaques: Mapa Cadaqués
-
-copyright: © esportitxo.cat | Tots els drets reservats | Avís legal | Disseny web
+esportitxo: "&laquo;Es portitxó&raquo;"
+menu.tarifes: Rates - 2012
+menu.condicions: TERMS & CONDITIONS
+menu.serveis: OPTIONAL SERVICES
+menu.mascotes: PETS
+menu.localitzacio: LOCATION
+menu.mapa_cadaques: Plain of Cadaqués
+menu.imprimir: Print web
+menu.enviarweb: Send site to a friend
+print: Print
+copyright: © esportitxo.cat | Tots els drets reservats | Legal disclamer | Web design
 
 
 

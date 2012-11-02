@@ -57,10 +57,10 @@ $fotos = $finder->files()->depth(0)->in(__DIR__ . $baseDir);
 <div class='row' id='top'>
     <div class='span4 idiomes'>
         <ul>
-            <li id='ca'><a href=''><?php echo $t->trans("idioma.cat")?></a></li>
-            <li id='en'><a href=""><?php echo $t->trans("idioma.eng")?></a></li>
-            <li id='es'><a href=""><?php echo $t->trans("idioma.esp")?></a></li>
-            <li id='fr'><a href=""><?php echo $t->trans("idioma.fra")?></a></li>
+            <li id='ca'><a href='/ca'><?php echo $t->trans("idioma.cat")?></a></li>
+            <li id='en'><a href="/en"><?php echo $t->trans("idioma.eng")?></a></li>
+            <li id='es'><a href="/es"><?php echo $t->trans("idioma.esp")?></a></li>
+            <li id='fr'><a href="/fr"><?php echo $t->trans("idioma.fra")?></a></li>
         </ul>
     </div>
 
@@ -298,7 +298,7 @@ $fotos = $finder->files()->depth(0)->in(__DIR__ . $baseDir);
 
         function initSlider() {
             pattern = "<img class='contorn' src='/images/contorn-fotos.png'/>";
-            patternPrint = "<a class='print' target='' href='#print'>imprimir</a>";
+            patternPrint = "<a class='print' target='' href='#print'><?php echo $t->trans("print")?></a>";
             $('#slider').find('img').before(pattern);
             $('#slider').find('img.primary-image').before(patternPrint);
 
