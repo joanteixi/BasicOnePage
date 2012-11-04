@@ -95,7 +95,7 @@ $fotos = $finder->files()->depth(0)->in(__DIR__ . $baseDir);
             <?php foreach ($fotos as $foto) : ?>
             <li>
                 <a href='#<?php echo $foto->getBasename('.jpg')?>'>
-                    <img width='50px' height="50px" src='<?php echo $baseDir . $foto->getFilename()?>'/>
+                    <img width='50' height="50" src='<?php echo $baseDir . $foto->getFilename()?>'/>
                 </a>
             </li>
             <?php endforeach ?>
