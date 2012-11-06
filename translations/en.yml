@@ -19,6 +19,8 @@ calendari:
     pending: Pending response
 
 reservar: BOOK <br/>&laquo;ES PORTITXO&raquo;
+mail:
+    subject: I invite you to visit this site: www.esportitxo.cat
 
 menu_fotos:
   cuina: Kitchen

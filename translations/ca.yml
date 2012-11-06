@@ -14,12 +14,12 @@ h1.cadaques_vols_veure: Quin Cadaqués vols veure?
 h1.titol: CASA-DÚPLEX A CADAQUÉS | LLOGUER AMB ENCANT
 h2.disponibilitat: DISPONIBILITAT
 calendari:
-    avaliable: Avaliable
-    not-avaliable: Not avaliable
-    pending: Pending response
+    avaliable: Disponible
+    not-avaliable: Llogat
 
-reservar: RESERVAR CASA <br/>&laquo;ES PORTITXO&raquo;
-
+reservar: RESERVAR <br/>&laquo;ES PORTITXO&raquo;
+mail:
+    subject: Et convido a què visitis aquest web: www.esportitxo.cat
 menu_fotos:
   cuina: Cuina
   menjador: Menjador
@@ -132,7 +132,7 @@ tarifes:
 
                     <td>Estades llargues d'octubre a maig:</td>
                     <td>1.550 euros/mes (*)<br/>
-                        <span class='nota'>(*) per estades superiors a 3 mesos</span></td>
+                        <span class='nota'>(*) per a estades superiors a 3 mesos</span></td>
                 </tr>
 
 condicions.titol: <span class='destacat'>Condicions de contractació</span> | Es Portitxó

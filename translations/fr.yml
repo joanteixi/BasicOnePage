@@ -18,7 +18,8 @@ calendari:
     pending: Pending response
 
 reservar: RÉSERVEZ <br/>&laquo;ES PORTITXO&raquo;
-
+mail:
+    subject: Je vous invite à visiter ce site: www.esportitxo.cat
 menu_fotos:
   cuina: CUISINE
   menjador: SALLE A MANGER

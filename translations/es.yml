@@ -14,11 +14,11 @@ h1.titol: CASA-DÚPLEX A CADAQUÉS | ALQUILER CON ENCANTO
 h2.disponibilitat: DISPONIBILITAT
 calendari:
     avaliable: Disponible
-    not-avaliable: Ocupado
-    pending: Pending response
+    not-avaliable: Alquilado
 
-reservar: RESERVAR CASA <br/>&laquo;ES PORTITXO&raquo;
-
+reservar: RESERVAR <br/>&laquo;ES PORTITXO&raquo;
+mail:
+    subject: Te invito a que visites esta web: www.esportitxo.cat
 menu_fotos:
   cuina: Cocina
   menjador: Comedor
