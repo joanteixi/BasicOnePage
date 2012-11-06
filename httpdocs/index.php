@@ -55,6 +55,7 @@ $fotos = $finder->files()->depth(0)->in(__DIR__ . $baseDir);
 <div class='container'>
 
 <div class='row' id='top'>
+
     <div class='span4 idiomes'>
         <ul>
             <li id='ca'><a href='/ca'><?php echo $t->trans("idioma.cat")?></a></li>
@@ -65,6 +66,8 @@ $fotos = $finder->files()->depth(0)->in(__DIR__ . $baseDir);
     </div>
 
     <div class='span5 offset3 estacions'>
+        <p><?php echo $t->trans("h1.cadaques_vols_veure")?></p>
+
         <ul>
             <li><a id='primavera' href="#"><?php echo $t->trans("estacions.PRIMAVERA")?></a></li>
             <li><a id='estiu' href="#"><?php echo $t->trans("estacions.ESTIU")?></a></li>
@@ -113,7 +116,6 @@ $fotos = $finder->files()->depth(0)->in(__DIR__ . $baseDir);
             <ul class='legend'>
                 <li id='avaliable'><?php echo $t->trans("calendari.avaliable")?></li>
                 <li id='not-avaliable'><?php echo $t->trans("calendari.not-avaliable")?></li>
-                <li id='pending'><?php echo $t->trans("calendari.pending")?></li>
             </ul>
         </div>
         <div id='booking'>
@@ -122,7 +124,7 @@ $fotos = $finder->files()->depth(0)->in(__DIR__ . $baseDir);
             <div id='emailModal' class="modal hide fade">
                 <div class="modal-header">
                     <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                    <h3><a target='_blank' href='mailto:info@barcelona-cadaques.cat'>info@barcelona-cadaques.cat</a>
+                    <h3><a target='_blank' href='mailto:info@barcelona-cadaques.cat?body=<?php echo $t->trans('mail.subject')?>&subject=Es portitxo'>info@barcelona-cadaques.cat</a>
                     </h3>
                 </div>
             </div>
@@ -139,7 +141,7 @@ $fotos = $finder->files()->depth(0)->in(__DIR__ . $baseDir);
             <li><a href="#habitacio"><?php echo $t->trans("menu_fotos.habitacions")?></a></li>
             <li><a href="#wc"><?php echo $t->trans("menu_fotos.banys")?></a></li>
             <li><a href="#planta"><?php echo $t->trans("menu_fotos.planta")?></a></li>
-            <li><a href="#cdqs"><?php echo $t->trans("menu_fotos.cadaques")?></a></li>
+            <li><a id='menu_inicial' href="#cdqs"><?php echo $t->trans("menu_fotos.cadaques")?></a></li>
         </ul>
     </div>
 </div>
@@ -288,6 +290,7 @@ $fotos = $finder->files()->depth(0)->in(__DIR__ . $baseDir);
 
     function changeEstacio(estacio) {
         $('body').attr('class', '').addClass(estacio);
+        $('#menu_inicial').trigger('click');
 //        $.get('loadImages.php', { estacio: estacio, dir:'#cdqs' }, function (data) {
 //            $('#galeria').html(data);
 //            initSlider();
