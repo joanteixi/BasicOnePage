@@ -37,7 +37,7 @@ descripcio:
             <span class='portitxo'>Es Portitxó</span>, Duplex-House, beside the beach. A place to dream in Cadaqués.
         </p>
 
-        <p>Es Portitxó is just few meters from the cove of the same name, on the beach of Cadaqués. It is a duplex-house with direct access from the street Sant Antoni, one of the most charming streets of Cadaqués. The paving of land, flowers in all its colors and the white walls are the brand personality of this corner of authentic Cadaques.
+        <p><span class='portitxo'>Es Portitxó</span> is just few meters from the cove of the same name, on the beach of Cadaqués. It is a duplex-house with direct access from the street Sant Antoni, one of the most charming streets of Cadaqués. The paving of land, flowers in all its colors and the white walls are the brand personality of this corner of authentic Cadaques.
         </p>
 
         <p>
@@ -62,7 +62,7 @@ descripcio:
             </p>
 
             <p>
-                <span class='portitxo'>Es Portitxó</span>has natural light throughout the day, front and rear, and is facing south. The best location in Cadaqués in a remarkably quiet place and very close to the beach and the promenade, makes Es Portitxó a unique space for your to stay in Cadaques.
+                <span class='portitxo'>Es Portitxó</span>has natural light throughout the day, front and rear, and is facing south. The best location in Cadaqués in a remarkably quiet place and very close to the beach and the promenade, makes <span class='portitxo'>Es Portitxó</span> a unique space for your to stay in Cadaques.
 
             </p>
 
@@ -150,24 +150,10 @@ serveis.col1: |
 
             <p>
                 <strong>Cleaning:</strong><br/>
-                Cleaning service "Es Portitxó" (inside, rooms, terraces, bathrooms and kitchen)
+                Cleaning service "<span class='portitxo'>Es Portitxó</span>" (inside, rooms, terraces, bathrooms and kitchen)
                 <br/><strong>Price: 120,00 euros.</strong>
             </p>
 serveis.col2: |
-              <p>
-                  <strong>In cases of incumpliment times of Check-in or Check-out apply as follows surcharges: </strong>
-              </p>
-
-              <p>
-                  <i class='icon-chevron-right'></i> Check-in between 16:00 pm and 20:00 pm, 50 € surcharge.
-                  Check-in between 20:00 pm and 24:00 pm, 100 € surcharge. .<br/>
-                  Not accepted Check-in above schedule at 24:00 pm.
-              </p>
-
-              <p>
-                  <i class='icon-chevron-right'></i> Check-out between 11:00 pm and 13:00 pm, 50 € surcharge. <br/>
-                 Not accepted Check-out above schedule at 13:00 h.
-              </p>
 
               <p>
                   During his stay in <span class='portitxo'>Es Portitxó</span>  customer can directly request any extra service you need and we try to respond, according to the possibilities of each moment. In this case we can fees costs according to each schedule and the materials used.
@@ -176,7 +162,7 @@ serveis.col2: |
 mascotes.titol: <span class='destacat'>Pets</span> | Es Portitxó
 
 mascotes.col1: |
- <p>Pets are welcome at Es Portitxó. The special conditions of contract are:</p>
+ <p>Pets are welcome at <span class='portitxo'>Es Portitxó</span>. The special conditions of contract are:</p>
 
             <p>
                 1.- The fee for each pet is 150 €.<br/>
@@ -187,7 +173,7 @@ mascotes.col1: |
             </p>
 mascotes.col2: |
             <p>
-                6.- Must extreme that your pet is as long as possible outside. Keep in mind that although it is cleaned thoroughly, there may be customers allergic by animals and should take precautions.
+                6.- Must extreme that your pet is as long as possible outside.
             </p>
 
 localitzacio.titol: <span class='destacat'>Location</span> | Es Portitxó
@@ -203,6 +189,8 @@ menu.mapa_cadaques: Plain of Cadaqués
 menu.imprimir: Print web
 menu.enviarweb: Send site to a friend
 print: Print
+menu.fotos: Photos and calendar
+
 copyright: © esportitxo.cat | Tots els drets reservats | Legal disclamer | Web design
 
 

@@ -35,7 +35,7 @@ descripcio:
             <span class='portitxo'>Es Portitxó</span>, Casa-Dúplex junto a la playa. Un espacio para soñar, en Cadaqués.
         </p>
 
-        <p>Es Portitxó se encuentra a unos metros de la cala del mismo nombre, en la playa grande de Cadaqués. És una casa-dúplex con acceso directo a la calle Sant Antoni, una de las calles con más encanto de Cadaqués. El empedrado de la calle, la multitud de flores con mil colores y el blanco de las paredes son la marca de personalidad de este rincón del Cadaqués auténtico.
+        <p><span class='portitxo'>Es Portitxó</span> se encuentra a unos metros de la cala del mismo nombre, en la playa grande de Cadaqués. És una casa-dúplex con acceso directo a la calle Sant Antoni, una de las calles con más encanto de Cadaqués. El empedrado de la calle, la multitud de flores con mil colores y el blanco de las paredes son la marca de personalidad de este rincón del Cadaqués auténtico.
         </p>
 
         <p>
@@ -61,7 +61,7 @@ descripcio:
             </p>
 
             <p>
-                <span class='portitxo'>Es Portitxó</span> tiene luz natural durante todo el día, delante y detrás, y está orientado al sur. La inmejorable ubicación dentro de Cadaqués en una zona extraordináriamente tranquila y muy cercana a la playa y al paseo de Cadaqués hacen de Es Portitxó un espacio único para sus estancias en Cadaqués.
+                <span class='portitxo'>Es Portitxó</span> tiene luz natural durante todo el día, delante y detrás, y está orientado al sur. La inmejorable ubicación dentro de Cadaqués en una zona extraordináriamente tranquila y muy cercana a la playa y al paseo de Cadaqués hacen de <span class='portitxo'>Es Portitxó</span> un espacio único para sus estancias en Cadaqués.
 
             </p>
 
@@ -149,33 +149,19 @@ serveis.col1: |
 
             <p>
                 <strong>Limpieza:</strong><br/>
-                Servicio de limpieza final "Es Portitxó" (interior, habitaciones, terrazas, baños y cocina)
+                Servicio de limpieza final "<span class='portitxo'>Es Portitxó</span>" (interior, habitaciones, terrazas, baños y cocina)
                 <br/><strong>Precio: 120,00 euros.</strong>
             </p>
 serveis.col2: |
-              <p>
-                  <strong>En los casos de incumplimiento de los horarios de entrada o de salida se aplicarán los siguientes recargos:</strong>
-              </p>
 
               <p>
-                  <i class='icon-chevron-right'></i> Horario de entrada entre las 16:00h y las 20:00h, recargo de 50 euros.<br/>
-                  <i class='icon-chevron-right'></i> Horari d’entrada entre les 20:00h y las 24:00h, recargo de 100 euros.<br/>
-                  <i class='icon-chevron-right'></i> No se aceptan entradas en horario superior a las 24:00h.
-              </p>
-
-              <p>
-                  <i class='icon-chevron-right'></i> Horario de salida entre las 11:00h y las 13:00h, recargo de 50 euros.<br/>
-                 No se aceptan salidas en horario superior a las 13:00h.
-              </p>
-
-              <p>
-                  Durante la estancia en Es Portitxó el cliente podrá solicitar directamente cualquier servicio extra que necesite y se intentará dar respuesta, según las posibilidades de cada momento. En este caso se podrán facturar los costes de desplazamiento, según cada horario, así como los materiales utilizados.
+                  Durante la estancia en <span class='portitxo'>Es Portitxó</span> el cliente podrá solicitar directamente cualquier servicio extra que necesite y se intentará dar respuesta, según las posibilidades de cada momento. En este caso se podrán facturar los costes de desplazamiento, según cada horario, así como los materiales utilizados.
               </p>
 
 mascotes.titol: <span class='destacat'>Mascotas</span> | Es Portitxó
 
 mascotes.col1: |
- <p>Las mascotas son bienvenidas a Es Portitxó. Las condiciones especiales de contratación son las siguientes:</p>
+ <p>Las mascotas son bienvenidas a <span class='portitxo'>Es Portitxó</span>. Las condiciones especiales de contratación son las siguientes:</p>
 
             <p>
                 1.- El precio por cada animal doméstico es de 150 €.<br/>
@@ -186,7 +172,7 @@ mascotes.col1: |
             </p>
 mascotes.col2: |
             <p>
-                6.- Es preciso extremar el cuidado de que la mascota esté el máximo tiempo posible en el exterior. Es necesario tener en cuenta que, a pesar de que se limpìe la casa a fondo, pueden haver clientes alérgicos a los pelos de animales y conviene extremar las precauciones.
+                6.- Es preciso extremar el cuidado de que la mascota esté el máximo tiempo posible en el exterior.
             </p>
 
 localitzacio.titol: <span class='destacat'>Localizacion</span> | Es Portitxó
@@ -202,6 +188,8 @@ menu.mapa_cadaques: Mapa Cadaqués
 menu.imprimir: Imprimir web
 menu.enviarweb: Enviar web a un amigo
 print: Imprimir
+menu.fotos: Fotos y calendario
+
 
 copyright: © esportitxo.cat | Todos los derechos reservados | Aviso legal | Diseño web
 

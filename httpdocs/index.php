@@ -124,7 +124,7 @@ $fotos = $finder->files()->depth(0)->in(__DIR__ . $baseDir);
             <div id='emailModal' class="modal hide fade">
                 <div class="modal-header">
                     <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                    <h3><a target='_blank' href='mailto:info@barcelona-cadaques.cat?body=<?php echo $t->trans('mail.subject')?>&subject=Es portitxo'>info@barcelona-cadaques.cat</a>
+                    <h3><a target='_blank' href='mailto:info@esportitxo.cat?body=<?php echo $t->trans('mail.subject')?>&subject=Es portitxo'>info@esportitxo.cat</a>
                     </h3>
                 </div>
             </div>
@@ -238,6 +238,7 @@ $fotos = $finder->files()->depth(0)->in(__DIR__ . $baseDir);
                     href="https://maps.google.es/maps?q=Carrer+de+Sant+Antoni,+1,+Cadaqu%C3%A9s&amp;hl=ca&amp;ie=UTF8&amp;sll=41.392657,2.139299&amp;sspn=0.163807,0.363579&amp;oq=carrer+sant+antoni,+1,+Cadaqu%C3%A9s&amp;t=m&amp;hnear=Carrer+de+Sant+Antoni,+1,+17488+Cadaqu%C3%A9s,+Girona,+Catalunya&amp;hq=&amp;ll=42.290882,3.279462&amp;spn=0.005556,0.012767&amp;z=16&amp;iwloc=lyrftr:m,7401917289466317802,42.289546,3.279526&amp;source=embed"
                     style="color:#0000FF;text-align:left"><?php echo $t->trans("google.mesgran")?>
             </a></small>
+            <p>42° 17' 22'' N (42.289581°) - 3° 16' 46'' E (3.279616°)</p>
         </section>
     </div>
 
@@ -246,6 +247,9 @@ $fotos = $finder->files()->depth(0)->in(__DIR__ . $baseDir);
 
             <span class='clip'></span>
             <ul class='nav nav-list bs-docs-sidenav '>
+                <li id='fotos_link'><a href="#top"><?php echo $t->trans("menu.fotos")?>
+                </a></li>
+
                 <li id='esportitxo_link'><a href="#descripcio"><?php echo $t->trans("esportitxo")?>
                 </a></li>
                 <li id='tarifes_link'><a href="#tarifes"><?php echo $t->trans("menu.tarifes")?>

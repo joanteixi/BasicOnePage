@@ -62,7 +62,7 @@ descripcio:
             </p>
 
             <p>
-                <span class='portitxo'>Es Portitxó</span> a la lumière naturelle toute la journée, avant et arrière, et est orientée plein sud. Le meilleur emplacement à Cadaqués d'une façon remarquablement calme et très proche de la plage et la promenade sont Cadaques faire du Es Portitxó un espace unique pour votre séjour à Cadaqués.
+                <span class='portitxo'>Es Portitxó</span> a la lumière naturelle toute la journée, avant et arrière, et est orientée plein sud. Le meilleur emplacement à Cadaqués d'une façon remarquablement calme et très proche de la plage et la promenade sont Cadaques faire du <span class='portitxo'>Es Portitxó</span> un espace unique pour votre séjour à Cadaqués.
 
 
             </p>
@@ -153,24 +153,10 @@ serveis.col1: |
 
             <p>
                 <strong>Nettoyage:</strong><br/>
-                Service de nettoyage "Es Portitxó" (à l'intérieur, des chambres, terrasses, salles de bains et cuisine)
+                Service de nettoyage "<span class='portitxo'>Es Portitxó</span>" (à l'intérieur, des chambres, terrasses, salles de bains et cuisine)
                 <br/><strong>Prix: 120,00 euros.</strong>
             </p>
 serveis.col2: |
-              <p>
-                  <strong>En cas de fois incumpliment d'entrée ou de sortie s'appliquent taxes comme suit: </strong>
-              </p>
-
-              <p>
-                  <i class='icon-chevron-right'></i> Check-in entre 16:00 h et 20:00 h, supplément de 50 €.<br/>
-                   <i class='icon-chevron-right'></i>Check-in entre 20:00 h et 24:00 h, supplément de 100 €.<br/>
-                  Pas d'entrées acceptées calendrier ci-dessus à 24:00 pm
-              </p>
-
-              <p>
-                  <i class='icon-chevron-right'></i> Check-out entre 11:00 pm et 13:00 h, supplément de 50 €. <br/>
-                  Pas été accepté à l'heure de départ de 13:00 h.
-              </p>
 
               <p>
                  Durant son séjour à <span class='destacat'>Es Portitxó</span> le client peut directement demander de tout service supplémentaire dont vous avez besoin et essayer de répondre, selon les possibilités de chaque instant. Dans ce cas, nous pouvons vérifier le coût de Voyage en fonction de chaque calendrier et les matériaux utilisés.
@@ -179,7 +165,7 @@ serveis.col2: |
 mascotes.titol: <span class='destacat'>Animaux de compagnie</span> | Es Portitxó
 
 mascotes.col1: |
- <p>Les animaux sont les bienvenus à Es Portitxó. Les conditions particulières du contrat sont les suivants:</p>
+ <p>Les animaux sont les bienvenus à <span class='portitxo'>Es Portitxó</span>. Les conditions particulières du contrat sont les suivants:</p>
 
             <p>
                 1.- Les frais pour chaque animal est de 150 €.<br/>
@@ -190,7 +176,7 @@ mascotes.col1: |
             </p>
 mascotes.col2: |
             <p>
-                6.- Doit exercer une extrême prudence que votre animal est aussi longue que possible à l'extérieur. Gardez à l'esprit que même si elle est nettoyée à fond, on peut être allergique aux clients par les animaux et doivent prendre des précautions.
+                6.- Doit exercer une extrême prudence que votre animal est aussi longue que possible à l'extérieur.
             </p>
 
 localitzacio.titol: <span class='destacat'>Localisation</span> | Es Portitxó
@@ -206,6 +192,8 @@ menu.mapa_cadaques: Plaine de Cadaqués
 menu.imprimir: Imprimer web
 menu.enviarweb: ENVOYER SITE À UN AMI
 print: Imprimer
+menu.fotos: Photos et calendrier
+
 
 copyright: © esportitxo.cat | Tots els drets reservats | Avertissement legal | Web design
 

@@ -98,6 +98,7 @@ ul.nav li.active a { background: none;color: #D92E12;text-shadow: 0 -1px 0 rgba(
 ul.nav li.active a:hover { background: none;color: #D92E12 }
 ul.nav li a:hover { background: none;color: #D92E12 }
 ul.nav-list a { padding: 3px 21px }
+#fotos_link { background-image: url(/images/menu/fotos.png);}
 #esportitxo_link { background-image: url(/images/menu/esportitxo.png);}
 #comarribar_link { background-image: url(/images/menu/google.png);}
 #tarifes_link { background-image: url(/images/menu/euro.png);}
@@ -119,8 +120,8 @@ ul.nav-list a { padding: 3px 21px }
     background: transparent url(/images/fons/serveis-g.png) no-repeat 0% 0%;
     width: 173px;
     height: 163px;
-    top: 280px;
-    left: 106px;
+    top: 150px;
+    left: 370px;
     position: absolute;
 }
 #fons_contractacio {

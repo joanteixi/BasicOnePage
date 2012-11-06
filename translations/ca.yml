@@ -37,7 +37,7 @@ descripcio:
             Cadaqués.
         </p>
 
-        <p>Es Portitxó es troba a només uns metres de la cala del mateix nom, a la platja gran de Cadaqués. És una
+        <p><span class='portitxo'>Es Portitxó</span> es troba a només uns metres de la cala del mateix nom, a la platja gran de Cadaqués. És una
             casa-dúplex amb accés directe des del carrer Sant Antoni, un dels carrers amb més encant de Cadaqués.
             L’empedrat del terra, les buganvíl·lies en tots els seus colors i el blanc de les parets són la marca de
             personalitat d’aquest racó del Cadaqués autèntic.
@@ -81,7 +81,7 @@ descripcio:
                 <span class='portitxo'>Es Portitxó</span> té llum natural durant tot el dia, davant i darrere, i està
                 orientat al sud. La immillorable
                 ubicació dins de Cadaqués en una zona extraordinàriament tranquil·la i molt propera a la platja i al passeig
-                de Cadaqués fan de Es Portitxó un espai únic per a les vostres estàncies a Cadaqués.
+                de Cadaqués fan de <span class='portitxo'>Es Portitxó</span> un espai únic per a les vostres estàncies a Cadaqués.
 
             </p>
 
@@ -174,27 +174,10 @@ serveis.col1: |
 
             <p>
                 <strong>Neteja:</strong><br/>
-                Servei de neteja final “Es Portitxó” (interior, habitacions, terrasses, banys i cuina)
+                Servei de neteja final “<span class='portitxo'>Es Portitxó</span>” (interior, habitacions, terrasses, banys i cuina)
                 <br/><strong>Preu: 120,00 euros.</strong>
             </p>
 serveis.col2: |
-              <p>
-                  <strong>En els casos d’incumpliment dels horaris d’entrada o de sortida s’aplicaran els següents
-                      recàrrecs:</strong>
-              </p>
-
-              <p>
-                  <i class='icon-chevron-right'></i> Horari d’entrada entre les 16:00h i les 20:00h, recàrrec de 50 euros.
-                  Horari d’entrada entre les 20:00h
-                  i les 24:00h, recàrrec de 100 euros.<br/>
-                  No s’accepten entrades en horari superior a les 24:00h.
-              </p>
-
-              <p>
-                  <i class='icon-chevron-right'></i> Horari de sortida entre les 11:00h i les 13:00h, recàrrec de 50
-                  euros.<br/>
-                  No s’accepten sortides en horari superior a les 13:00h.
-              </p>
 
               <p>
                   Durant l’estada a <span class='portitxo'>Es Portitxó</span> el client podrà sol·licitar directament
@@ -206,7 +189,7 @@ serveis.col2: |
 mascotes.titol: <span class='destacat'>Mascotes</span> | Es Portitxó
 
 mascotes.col1: |
- <p>Les mascotes són benvingudes a Es Portitxó. Les condicions especials de contractació són les
+ <p>Les mascotes són benvingudes a <span class='portitxo'>Es Portitxó</span>. Les condicions especials de contractació són les
                 següents:</p>
 
             <p>
@@ -221,9 +204,7 @@ mascotes.col1: |
             </p>
 mascotes.col2: |
             <p>
-                6.- Cal extremar la cura de què la mascota estigui el màxim temps possible a l’exterior. Cal tenir en
-                compte que, per molt que es netegi a fons, pot haver-hi clients al·lergics als pels dels animals i convé
-                extremar les precaucions.
+                6.- Cal extremar la cura de què la mascota estigui el màxim temps possible a l’exterior.
             </p>
 
 localitzacio.titol: <span class='destacat'>Localització</span> | Es Portitxó
@@ -239,6 +220,7 @@ menu.mapa_cadaques: Mapa Cadaqués
 menu.imprimir: Imprimir web
 menu.enviarweb: Enviar web a un amic
 print: Imprimir
+menu.fotos: Fotos i calendari
 
 copyright: © esportitxo.cat | Tots els drets reservats | Avís legal | Disseny web
 
