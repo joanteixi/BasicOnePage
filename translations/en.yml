@@ -173,6 +173,8 @@ mascotes.col1: |
             </p>
 mascotes.col2: |
             <p>
+                            5.- Required to maintain the respect of the property. The scratches on doors, furniture or other damage that may cause the pet will be the responsibility of the owner.</br/>
+
                 6.- Must extreme that your pet is as long as possible outside.
             </p>
 
@@ -190,8 +192,20 @@ menu.imprimir: Print web
 menu.enviarweb: Send site to a friend
 print: Print
 menu.fotos: Photos and calendar
-
-copyright: © esportitxo.cat | Tots els drets reservats | Legal disclamer | Web design
+legal: | 
+    <h2>LEGAL DISCLAIMER</h2>
+    <p><strong>Overview</strong></p>
+    <p>Site Owner: <strong>esportitxo.cat</strong><br>
+    Contact: email (<strong>info@esportitxo.cat</strong>) or telephone (<strong>+34  608 49 89 03</strong>) <br>
+    The information contained in this website has been created by the Company <strong><a href="http://www.laxicra.cat/index2Eng.htm" target="_blank">La Xicra Comunicació</a></strong>. Reproduction in whole or part of the contents  of this site is forbidden without mentioning its source or without obtaining  the express consent of <strong>esportitxo.cat</strong></p>
+    <p>The owner reserves the right to update the  contents of the site and remove them, as well as to limit and/or prevent their  access, either temporarily or permanently, without notice.</p>
+    <p>&nbsp;</p>
+    <p><strong>Data Privacy</strong></p>
+    <p>Processing of personal data. <br>
+      <strong>esportitxo.cat</strong> will comply the obligation to keep confidential  the personal data and the duty to treat them with confidentiality, and assume,  for all purposes, the technical, organizational and necessary security to avoid  alteration, loss, or unauthorized access in accordance with the provisions of  Law 15/1999 of December 13, Protection of Personal Data. <br>
+    Any registered user can at any time exercise their right to access, correct  and, if appropriate, cancel the personal data supplied voluntarily by a request  to <strong>barcelona cadaques.cat</strong>. <br>
+    Likewise, you may contact via email <strong>info@esportitxo.cat</strong>.</p>
+copyright: © esportitxo.cat | Tots els drets reservats | <a href='#legal' data-toggle="modal">Legal disclamer</a> | Web design
 
 
 

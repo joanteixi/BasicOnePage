@@ -199,11 +199,12 @@ mascotes.col1: |
                 contracte.<br/>
                 4.- És obligatori que els clients portin roba per cobrir els sofàs o llits. No és permesa la seva
                 utilització per les mascotes sense protecció.<br/>
-                5.- És obligatori mantenir el respecte a la propietat. Les rascades a les portes, mobles o altres
-                desperfectes que pugui causar la mascota seran responsabilitat dels seus propietaris.</br/>
+
             </p>
 mascotes.col2: |
             <p>
+             5.- És obligatori mantenir el respecte a la propietat. Les rascades a les portes, mobles o altres
+                            desperfectes que pugui causar la mascota seran responsabilitat dels seus propietaris.</br/>
                 6.- Cal extremar la cura de què la mascota estigui el màxim temps possible a l’exterior.
             </p>
 
@@ -222,7 +223,20 @@ menu.enviarweb: Enviar web a un amic
 print: Imprimir
 menu.fotos: Fotos i calendari
 
-copyright: © esportitxo.cat | Tots els drets reservats | Avís legal | Disseny web
+legal: |
+    <h2>AVÍS LEGAL</h2>
+    <p><strong>Informació general</strong></p>
+    <p>Titular del Web: <strong>esportitxo.cat</strong><br>
+      Contacte: per correu electrònic (<strong>info@esportitxo.cat</strong>) o per  telèfon (<strong>+34 608 49 89 03</strong>) <br>
+      La informació continguda en aquest Web ha estat elaborat per  l'empresa <strong><a href="http://www.laxicra.cat" target="_blank">La Xicra Comunicació</a>.</strong> Es prohibeix la reproducció total o  parcial dels continguts d’aquest web sense fer esment al seu origen o sense  haver obtingut l’autorització expressa de <strong>esportitxo.cat</strong>. <br>
+      El propietari es reserva el dret d’actualitzar els continguts del lloc web i  eliminar-los, així com limitar-ne i/o impedir-ne l’accés, ja sigui de forma  temporal o definitiva, sense notificació prèvia. </p>
+    <p>&nbsp;</p>
+    <p><strong>Privadesa de dades</strong></p>
+    <p>Tractament de les dades de caràcter personal <br>
+      <strong>esportitxo.cat</strong> es compromet a complir l’obligació de mantenir en  secret les dades de caràcter personal i el deure de tractar-les amb  confidencialitat, i assumir, a tots els efectes, les mesures tècniques,  organitzatives i de seguretat necessàries per a evitar-ne l’alteració, pèrdua,  tractament o accés no autoritzat, d’acord amb allò que estableix la &nbsp;Llei  Orgànica 15/1999 de 13 de desembre, de Protecció de Dades de Caràcter Personal.<br>
+      Qualsevol usuari registrat pot en tot moment exercir el dret d’accedir,  rectificar, i, en el seu cas, cancel·lar les dades de caràcter personal  subministrades de forma voluntària, mitjançant una petició dirigida a <strong>esportitxo.cat</strong>. <br>
+      Així mateix, es pot posar en contacte mitjançant correu electrònic <strong>info@esportitxo.cat.</strong></p>
+copyright: © esportitxo.cat | Tots els drets reservats | <a href='#legal' data-toggle="modal">Avís legal</a> | Disseny web
 
 
 

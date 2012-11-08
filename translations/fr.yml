@@ -176,6 +176,8 @@ mascotes.col1: |
             </p>
 mascotes.col2: |
             <p>
+                            5.- Requis pour maintenir le respect de la propriété. Les rayures sur les portes, les meubles ou autres dommages qui peuvent causer l'animal sera à la charge du propriétaire.</br/>
+
                 6.- Doit exercer une extrême prudence que votre animal est aussi longue que possible à l'extérieur.
             </p>
 
@@ -193,9 +195,21 @@ menu.imprimir: Imprimer web
 menu.enviarweb: ENVOYER SITE À UN AMI
 print: Imprimer
 menu.fotos: Photos et calendrier
+legal: |
+    <h2>AVERTISSEMENT LEGAL</h2>
+    <p><strong>Présentation</strong></p>
+    <p>Propriétaire du site: <strong>esportitxo.cat</strong><br>
+    Contact: e-mail  (<strong>info@esportitxo.cat</strong>) ou par téléphone (<strong>+34  608 49 89 03</strong>) <br>
+    Les informations contenues dans ce site web a été  préparé par la Company <strong><a href="http://www.laxicra.cat/index2Eng.htm" target="_blank">La Xicra Comunicació</a></strong>. La reproduction en tout ou partie du contenu de ce site  sans en mentionner la source ou sans obtenir le consentement exprès de <strong>esportitxo.cat</strong>. <br>
+    Le propriétaire se réserve le droit d'actualiser le contenu du site et les  enlever, ainsi que pour limiter et/ou empêcher leur accès, que ce soit temporairement  ou définitivement, sans préavis.</p>
+    <p>&nbsp;</p>
+    <p><strong>Data Privacy</strong></p>
+    <p>Traitement des données personnelles</p>
+    <strong>esportitxo.cat</strong> s'engage à s'acquitter  de l'obligation de conserver les données personnelles et confidentielles et le  devoir de les traiter avec confidentialité, et d'assumer, à toutes fins, la  technique, organisationnel et de sécurité nécessaires pour éviter l  «altération, perte ou accès non autorisé, conformément aux dispositions de la  loi 15/1999 du 13 Décembre, de la protection des données personnelles. <br>
+    Tout utilisateur inscrit peut, à tout moment exercer leur droit d'accès, de  rectification et, le cas échéant, d'annuler les données personnelles fournies  volontairement par une demande à <strong>esportitxo.cat</strong>. <br>
+    De même, vous mai contacter par email&nbsp; <strong>info@esportitxo.cat</strong>.</div>
 
-
-copyright: © esportitxo.cat | Tots els drets reservats | Avertissement legal | Web design
+copyright: © esportitxo.cat | Tots els drets reservats | <a href='#legal' data-toggle="modal">Avertissement legal</a> | Web design
 
 
 

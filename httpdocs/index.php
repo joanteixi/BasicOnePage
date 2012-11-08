@@ -74,6 +74,7 @@ $fotos = $finder->files()->depth(0)->in(__DIR__ . $baseDir);
             <li><a id='tardor' href="#"><?php echo $t->trans("estacions.TARDOR")?></a></li>
             <li><a id='hivern' href="#"><?php echo $t->trans("estacions.HIVERN")?></a></li>
         </ul>
+        <p class='old'><a id='old' href="#"><?php echo $t->trans('cadaques.antic?')?></a></p>
     </div>
 </div>
 
@@ -119,15 +120,8 @@ $fotos = $finder->files()->depth(0)->in(__DIR__ . $baseDir);
             </ul>
         </div>
         <div id='booking'>
-            <h2><a data-toggle="modal" href="#emailModal" target='_blank'><?php echo $t->trans("reservar")?></a></h2>
+            <h2><a data-toggle="modal" href="mailto:info@esportitxo.cat?body=<?php echo $t->trans('mail.subject')?>&subject=Es portitxo" target='_blank'><?php echo $t->trans("reservar")?></a></h2>
 
-            <div id='emailModal' class="modal hide fade">
-                <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                    <h3><a target='_blank' href='mailto:info@esportitxo.cat?body=<?php echo $t->trans('mail.subject')?>&subject=Es portitxo'>info@esportitxo.cat</a>
-                    </h3>
-                </div>
-            </div>
         </div>
     </div>
 
@@ -269,7 +263,9 @@ $fotos = $finder->files()->depth(0)->in(__DIR__ . $baseDir);
                 <li class='open' id="imprimirweb_link"><a href='#'
                                                           onclick='javascript:print()'><?php echo $t->trans("menu.imprimir")?></a>
                 </li>
-                <li class='open' id="enviarweb_link"><a href='mailto:' target='_blank'><?php echo $t->trans("menu.enviarweb")?></a></li>
+                <li class='open' id="enviarweb_link"><a href='mailto:'
+                                                        target='_blank'><?php echo $t->trans("menu.enviarweb")?></a>
+                </li>
             </ul>
         </div>
 
@@ -281,8 +277,14 @@ $fotos = $finder->files()->depth(0)->in(__DIR__ . $baseDir);
     <div class='span8'>
         <p class='legal'><?php echo $t->trans('copyright')?></p>
     </div>
-
 </div>
+</div>
+
+<div id='legal' class='modal hide fade'>
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+    <div class='modal-body'>
+        <?php echo $t->trans('legal'); ?>
+    </div>
 </div>
 
 <script src="http://code.jquery.com/jquery-latest.js"></script>

@@ -172,6 +172,7 @@ mascotes.col1: |
             </p>
 mascotes.col2: |
             <p>
+                            5.- Es obligatorio mantener el respeto a la propiedad. Los arañazos en las puertas, muebles u otros desperfectos que pudiera causar la mascota serán responsabilidad de sus propietarios.</br/>
                 6.- Es preciso extremar el cuidado de que la mascota esté el máximo tiempo posible en el exterior.
             </p>
 
@@ -190,8 +191,18 @@ menu.enviarweb: Enviar web a un amigo
 print: Imprimir
 menu.fotos: Fotos y calendario
 
-
-copyright: © esportitxo.cat | Todos los derechos reservados | Aviso legal | Diseño web
+legal: |
+    <h2>AVISO LEGAL</h2>
+    <p><strong>Información general</strong></p>
+    <p>Titular de la Web: <strong>esportitxo.cat</strong><br>
+    Contacto: por correo electrònico  (<strong>info@esportitxo.cat</strong>) o por teléfono (<strong>+34  608 49 89 03</strong>) <br>
+    La información contenida en esta web ha sido elaborada  por la empresa <strong><a href="http://www.laxicra.cat/index2Esp.htm" target="_blank">La Xicra Comunicació</a></strong>. Se prohibe la reproducción total o  parcial de los contenidos de esta web sin hacer mención a su origen o sin haber  obtenido la autorización explícita de <strong>esportitxo.cat</strong>. El  propietario se reserva el derecho de actualizar los contenidos de la web y de  eliminarlos, así como de limitar y/o impedir el acceso, ya sea de forma  temporal o definitiva, sin notificación previa.</p>
+    <p>&nbsp;</p>
+    <p><strong>Privacidad de datos</strong></p>
+    <p>Uso de los datos de caràcter personalitat</p>
+    <strong>esportitxo.cat</strong> se compromete a cumplir  la obligación de mantener en secreto los datos de carácter personal y el deber  de tratarlos con confidencialidad y asumir, a todos los efectos, las medidas  técnicas, organizativas y de seguridad necesarias para evitar la alteración,  pérdida, uso o acceso no autorizado, de acuerdo con aquello que establece la Ley Orgánica 15/1999  de 13 de diciembre, de Protección de Datos de Carácter Personal. Cualquier usuario  registrado puede en todo momento ejercer el derecho de acceder, rectificar y,  en su caso, cancelar los datos de carácter personal suministrados de forma  voluntaria, mediante una petición dirigida a <strong>esportitxo.cat</strong>.<br>
+    Asimismo, se puede poner en contacto mediante correo electrónico en <strong>esportitxo.cat.</strong>
+copyright: © esportitxo.cat | Todos los derechos reservados | <a href='#legal' data-toggle="modal">Aviso legal</a> | Diseño web
 
 
 
