@@ -74,7 +74,7 @@ $fotos = $finder->files()->depth(0)->in(__DIR__ . $baseDir);
             <li><a id='tardor' href="#"><?php echo $t->trans("estacions.TARDOR")?></a></li>
             <li><a id='hivern' href="#"><?php echo $t->trans("estacions.HIVERN")?></a></li>
         </ul>
-        <p class='old'><a id='old' href="#"><?php echo $t->trans('cadaques.antic?')?></a></p>
+        <p class='old'><a id='old' href="#"><?php echo $t->trans('cadaques.antic')?></a></p>
     </div>
 </div>
 
