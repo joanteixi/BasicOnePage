@@ -283,8 +283,9 @@ $fotos = $finder->files()->depth(0)->in(__DIR__ . $baseDir);
 </div>
 
 <div id='legal' class='modal hide fade'>
-        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
     <div class='modal-body'>
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+
         <?php echo $t->trans('legal'); ?>
     </div>
 </div>

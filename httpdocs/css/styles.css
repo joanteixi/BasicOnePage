@@ -174,6 +174,8 @@ section.with365 { background: transparent url(/images/fons/365.png)}
 }
 
 .legal { text-align: center;}
+#legal { width: 900px;margin-left: -450px;height: 550px;overflow: hidden}
+#legal .modal-body { max-height: 550px}
 a.print_map { float: right;margin-top: -33px}
 /******************
   SET STYLING HERE
