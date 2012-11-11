@@ -19,7 +19,8 @@ calendari:
 
 reservar: RESERVAR <br/>&laquo;ES PORTITXO&raquo;
 mail:
-    subject: Et convido a què visitis aquest web: www.esportitxo.cat
+    reservar:
+    body: Et convido a visitar aquest web: www.esportitxo.cat
 menu_fotos:
   cuina: Cuina
   menjador: Menjador
@@ -236,7 +237,7 @@ legal: |
       <strong>esportitxo.cat</strong> es compromet a complir l’obligació de mantenir en  secret les dades de caràcter personal i el deure de tractar-les amb  confidencialitat, i assumir, a tots els efectes, les mesures tècniques,  organitzatives i de seguretat necessàries per a evitar-ne l’alteració, pèrdua,  tractament o accés no autoritzat, d’acord amb allò que estableix la &nbsp;Llei  Orgànica 15/1999 de 13 de desembre, de Protecció de Dades de Caràcter Personal.<br>
       Qualsevol usuari registrat pot en tot moment exercir el dret d’accedir,  rectificar, i, en el seu cas, cancel·lar les dades de caràcter personal  subministrades de forma voluntària, mitjançant una petició dirigida a <strong>esportitxo.cat</strong>. <br>
       Així mateix, es pot posar en contacte mitjançant correu electrònic <strong>info@esportitxo.cat.</strong></p>
-copyright: © esportitxo.cat | Tots els drets reservats | <a href='#legal' data-toggle="modal">Avís legal</a> | Disseny web
+copyright: © esportitxo.cat | Tots els drets reservats | <a href='#legal' data-toggle="modal">Avís legal</a> | <a href='http://www.questions.cat' target='_blank'>Disseny web</a>
 
 
 

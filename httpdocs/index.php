@@ -120,7 +120,7 @@ $fotos = $finder->files()->depth(0)->in(__DIR__ . $baseDir);
             </ul>
         </div>
         <div id='booking'>
-            <h2><a data-toggle="modal" href="mailto:info@esportitxo.cat?body=<?php echo $t->trans('mail.subject')?>&subject=Es portitxo" target='_blank'><?php echo $t->trans("reservar")?></a></h2>
+            <h2><a data-toggle="modal" href="mailto:info@esportitxo.cat?subject=Reserva Es portitxo" target='_blank'><?php echo $t->trans("reservar")?></a></h2>
 
         </div>
     </div>
@@ -263,8 +263,10 @@ $fotos = $finder->files()->depth(0)->in(__DIR__ . $baseDir);
                 <li class='open' id="imprimirweb_link"><a href='#'
                                                           onclick='javascript:print()'><?php echo $t->trans("menu.imprimir")?></a>
                 </li>
-                <li class='open' id="enviarweb_link"><a href='mailto:'
-                                                        target='_blank'><?php echo $t->trans("menu.enviarweb")?></a>
+                <li class='open' id="enviarweb_link">
+                    <a href='mailto:info@esportitxo.cat?body=<?php echo $t->trans('mail.body')?>&subject=Es portitxo' target='_blank'><?php echo $t->trans("menu.enviarweb")?></a></h2>
+
+
                 </li>
             </ul>
         </div>
