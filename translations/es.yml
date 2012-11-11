@@ -19,7 +19,7 @@ h1.cadaques_vols_veure: ¿Qué Cadaqués quieres ver?
 
 reservar: RESERVAR <br/>&laquo;ES PORTITXO&raquo;
 mail:
-    subject: Te invito a que visites esta web: www.esportitxo.cat
+    body: Te invito a que visites esta web: www.esportitxo.cat
 menu_fotos:
   cuina: Cocina
   menjador: Comedor

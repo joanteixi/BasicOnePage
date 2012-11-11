@@ -19,7 +19,7 @@ calendari:
 h1.cadaques_vols_veure: Dans quel Cadaqués voulez-vous voir?
 reservar: RÉSERVEZ <br/>&laquo;ES PORTITXO&raquo;
 mail:
-    subject: Je vous invite à visiter ce site: www.esportitxo.cat
+    body: Je vous invite à visiter ce site: www.esportitxo.cat
 menu_fotos:
   cuina: CUISINE
   menjador: SALLE A MANGER
