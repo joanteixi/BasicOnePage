@@ -34,7 +34,12 @@ ul li { list-style: none;}
 .estacions ul li a#primavera  { background-image: url(/images/estacions/primavera.png)}
 .estacions ul li a#hivern  { background-image: url(/images/estacions/hivern.png)}
 .estacions ul li a#tardor  { background-image: url(/images/estacions/tardor.png)}
-p.old { text-align: center;position: absolute;top: 100px;color: black;left: 80px;}
+p.old { text-align: center;position: absolute;top: 100px;color: black;left: 87px;}
+p.old a {background: white url(/images/fons/cdq.png) no-repeat 50% 0%;
+    height: 0px;
+    display: block;
+    margin-top: 0px;
+    padding: 38px 0 24px 0;}
 
 .head h1 { letter-spacing:2px;color: #0050D0; font-size:14px;  background: transparent url(/images/logo-esportitxo.png) no-repeat 20px 0;padding:65px 0 0 77px;margin:0}
 .modal-body { background: transparent url(/images/logo-esportitxo.png) no-repeat 20px 0;padding-left: 50px;}

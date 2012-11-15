@@ -1,6 +1,6 @@
 <?php
 
-require(__DIR__ . '/../vendor/autoload.php');
+require(__DIR__ . '/vendor/autoload.php');
 
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\Finder\Finder;
@@ -33,7 +33,7 @@ if (null == $image || !is_file(__DIR__ . $image)) {
 
 <img src='<?php echo $_GET['src']; ?>'/>
 
-<p><a href='#' onclick='javascript:print()'>Imprimir</p>
+<p><a href='#' onclick='javascript:print()'>Imprimir foto</p>
 </div>
 
 </body>

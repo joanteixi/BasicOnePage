@@ -3,7 +3,7 @@
 use Symfony\Component\Finder\Finder;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\Response;
-require(__DIR__.'/../vendor/autoload.php');
+require(__DIR__.'/vendor/autoload.php');
 
 $request = Request::createFromGlobals();
 $finder = new Finder;

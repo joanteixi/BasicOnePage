@@ -16,7 +16,7 @@ calendari:
     avaliable: Disponible
     not-avaliable: Loué
     pending: Pending response
-h1.cadaques_vols_veure: Dans quel Cadaqués voulez-vous voir?
+h1.cadaques_vols_veure: Qu'est-ce Cadaqués voulez?
 reservar: RÉSERVEZ <br/>&laquo;ES PORTITXO&raquo;
 mail:
     body: Je vous invite à visiter ce site: www.esportitxo.cat
@@ -182,7 +182,7 @@ mascotes.col2: |
             </p>
 
 localitzacio.titol: <span class='destacat'>Localisation</span> | Es Portitxó
-google.mesgran: Mostra un mapa més gran
+google.mesgran: Voir sur une carte plus grande
 
 esportitxo: "&laquo;Es portitxó&raquo;"
 menu.tarifes: TARIFS - 2012
@@ -212,6 +212,7 @@ legal: |
     De même, vous mai contacter par email&nbsp; <strong>info@esportitxo.cat</strong>.</div>
 
 copyright: © esportitxo.cat | Tots els drets reservats | <a href='#legal' data-toggle="modal">Avertissement legal</a> | <a href='http://www.questions.cat' target='_blank'>Web design</a>
+coordenades: Coordonnées GPS
 
 
 

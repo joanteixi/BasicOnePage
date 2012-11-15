@@ -1,7 +1,7 @@
 <?php
 
 
-require(__DIR__ . '/../vendor/autoload.php');
+require(__DIR__ . '/vendor/autoload.php');
 
 use Symfony\Component\Finder\Finder;
 use Symfony\Component\Translation\Translator;
@@ -15,7 +15,7 @@ $locale = $request->get('locale', 'ca');
 $t = new Translator($locale, new MessageSelector());
 $t->setFallbackLocale('ca');
 $t->addLoader('yml', new YamlFileLoader());
-$locale_path = sprintf(__DIR__ . '/../translations/%s.yml', $locale);
+$locale_path = sprintf(__DIR__ . '/translations/%s.yml', $locale);
 $t->addResource('yml', $locale_path, $locale);
 
 $today = new DateTime();
@@ -232,7 +232,7 @@ $fotos = $finder->files()->depth(0)->in(__DIR__ . $baseDir);
                     href="https://maps.google.es/maps?q=Carrer+de+Sant+Antoni,+1,+Cadaqu%C3%A9s&amp;hl=ca&amp;ie=UTF8&amp;sll=41.392657,2.139299&amp;sspn=0.163807,0.363579&amp;oq=carrer+sant+antoni,+1,+Cadaqu%C3%A9s&amp;t=m&amp;hnear=Carrer+de+Sant+Antoni,+1,+17488+Cadaqu%C3%A9s,+Girona,+Catalunya&amp;hq=&amp;ll=42.290882,3.279462&amp;spn=0.005556,0.012767&amp;z=16&amp;iwloc=lyrftr:m,7401917289466317802,42.289546,3.279526&amp;source=embed"
                     style="color:#0000FF;text-align:left"><?php echo $t->trans("google.mesgran")?>
             </a></small>
-            <p>42° 17' 22'' N (42.289581°) - 3° 16' 46'' E (3.279616°)</p>
+            <p><?php echo $t->trans('coordenades')?>: 42° 17' 22'' N (42.289581°) - 3° 16' 46'' E (3.279616°)</p>
         </section>
     </div>
 
@@ -383,6 +383,20 @@ $fotos = $finder->files()->depth(0)->in(__DIR__ . $baseDir);
     })
 
 </script>
+<script type="text/javascript">
+
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-116984-59']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+
+</script>
+
 
 </body>
 </html>
