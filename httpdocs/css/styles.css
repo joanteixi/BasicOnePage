@@ -56,8 +56,8 @@ h2 > a { color: #08C;}
 #calendar h2 { margin-left: 66px;}
 ul.legend  { padding:0;margin:0 0 0 45px;}
 ul.legend li { float: left;font-size:10px; background: transparent url(/images/calendari/verd.png) no-repeat 0 50%;padding: 0 0 0 15px;margin:0 10px}
-li#avaliable { background-image: url(/images/calendari/verd.png) }
-li#not-avaliable { background-image: url(/images/calendari/vermell.png) }
+li#avaliable { background-image: url(/images/calendari/blanc.png) }
+li#not-avaliable { background-image: url(/images/calendari/blau.png) }
 li#pending { background-image: url(/images/calendari/gris.png) }
 #booking { padding: 0px 0 0 5px;margin:24px 0 0 10px}
 #booking h2 { font-size: 14px;}
