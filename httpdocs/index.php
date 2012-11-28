@@ -8,7 +8,7 @@ use Symfony\Component\Translation\Translator;
 use Symfony\Component\Translation\MessageSelector;
 use Symfony\Component\Translation\Loader\YamlFileLoader;
 use Symfony\Component\HttpFoundation\Request;
-
+use CacheHandler\ImageCache;
 $request = Request::createFromGlobals();
 $locale = $request->get('locale', 'ca');
 
@@ -33,7 +33,10 @@ if ($today > DateTime::createFromFormat('d/m', '21/09') && $today <= DateTime::c
 $finder = new Finder;
 $baseDir = sprintf('/images/fotos/%s/cdqs/', $estacioActual);
 $fotos = $finder->files()->depth(0)->in(__DIR__ . $baseDir);
+$cache = new ImageCache($baseDir);
 
+
+Ladybug\Loader::loadHelpers();
 
 ?>
 
@@ -99,7 +102,7 @@ $fotos = $finder->files()->depth(0)->in(__DIR__ . $baseDir);
             <?php foreach ($fotos as $foto) : ?>
             <li>
                 <a href='#<?php echo $foto->getBasename('.jpg')?>'>
-                    <img width='50' height="50" src='<?php echo $baseDir . $foto->getFilename()?>'/>
+                    <img src='<?php echo $baseDir . $cache->getImage($foto)?>'/>
                 </a>
             </li>
             <?php endforeach ?>

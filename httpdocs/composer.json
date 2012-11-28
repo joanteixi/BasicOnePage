@@ -4,6 +4,12 @@
         "symfony/http-foundation": "master-dev",
         "symfony/translation": "master-dev",
         "symfony/yaml": "master-dev",
-        "symfony/config": "master-dev"
+        "symfony/config": "master-dev",
+        "imagine/Imagine": "0.3.0",
+        "raulfraile/ladybug": "master-dev"
+    },
+
+    "autoload": {
+        "psr-0": {"Cache": "src/"}
     }
 }
